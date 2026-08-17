@@ -591,12 +591,15 @@ a {
     font-weight: 400; /* Assuming standard font from root */
     text-transform: uppercase;
     line-height: 1.4;
+    word-break: break-word; /* Prevent long words from overflowing */
 }
 
 .grid-meta {
     font-size: 0.9rem;
     color: rgba(74, 51, 45, 0.65);
     font-weight: 500;
+    margin-top: 1.2rem; /* Add spacing between card and course name */
+    line-height: 1.4;
 }
 /* About Page Split Layout */
 .about-grid {
