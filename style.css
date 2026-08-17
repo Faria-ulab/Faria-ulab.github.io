@@ -678,3 +678,71 @@ a {
 .about-image-column:hover::before {
     transform: translate(-10px, -10px);
 }
+/* Academic Timeline */
+.academic-timeline-section {
+    max-width: 800px;
+    margin-bottom: var(--spacing-lg);
+}
+
+.timeline {
+    position: relative;
+    padding-left: 2rem;
+    border-left: 2px solid var(--color-subtle);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -2.35rem; /* Center over the 2px border (2rem padding + 1px) */
+    top: 0.3rem;
+    width: 12px;
+    height: 12px;
+    background-color: var(--color-accent);
+    border-radius: 50%;
+    border: 2px solid var(--color-bg);
+}
+
+.timeline-title {
+    font-size: 1.4rem;
+    color: var(--color-text);
+    margin-bottom: 0.3rem;
+}
+
+.timeline-meta {
+    font-size: 0.9rem;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.8rem;
+    font-weight: 500;
+}
+
+.timeline-desc {
+    font-size: 1.05rem;
+    opacity: 0.8;
+    line-height: 1.6;
+}
+
+.section-divider {
+    height: 1px;
+    width: 100%;
+    background-color: var(--color-subtle);
+    margin: var(--spacing-md) 0;
+}
+
+.grid-section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: var(--color-text);
+    text-transform: none;
+    letter-spacing: -0.01em;
+    margin-bottom: var(--spacing-md);
+}
