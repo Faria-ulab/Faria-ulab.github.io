@@ -603,7 +603,7 @@ a {
     display: grid;
     grid-template-columns: 1fr;
     gap: 3rem;
-    align-items: center;
+    align-items: start; /* Align to top instead of center */
     padding-bottom: 2rem;
 }
 
@@ -616,11 +616,22 @@ a {
 
 .about-text-column {
     max-width: 600px;
+    padding-top: 1rem;
 }
 
 .about-image-column {
     position: relative;
     width: 100%;
+    max-width: 400px; /* Make the photo smaller */
+    margin: 0 auto; /* Center on mobile */
+    order: -1; /* Push to the very top on mobile */
+}
+
+@media (min-width: 900px) {
+    .about-image-column {
+        order: 0; /* Natural order on desktop (right side) */
+        margin-top: -3rem; /* Drag it upwards on desktop */
+    }
 }
 
 /* Subtle background accent behind photo */
@@ -632,7 +643,8 @@ a {
     width: 100%;
     height: 100%;
     background-color: var(--color-subtle);
-    border-radius: 12px;
+    /* Match the creative arch shape */
+    border-radius: 200px 200px 15px 15px;
     z-index: 0;
     transition: transform 0.5s ease;
 }
@@ -641,7 +653,8 @@ a {
     position: relative;
     z-index: 1;
     overflow: hidden;
-    border-radius: 12px;
+    /* Creative elegant arch shape */
+    border-radius: 200px 200px 15px 15px;
     box-shadow: 0 10px 40px rgba(61, 12, 12, 0.08);
 }
 
