@@ -204,8 +204,9 @@ a {
     text-transform: none; /* Sentence case/Title case looks better in serif */
 }
 
-.accent-dot {
+.highlight-name {
     color: var(--color-accent);
+    font-style: italic;
 }
 
 .subtitle {
