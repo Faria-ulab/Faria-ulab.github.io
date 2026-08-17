@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Faria Akter Mitu</title>
+    <!-- Editorial Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,26 +26,46 @@
         </header>
 
         <main class="section about-page">
-            <div class="section-header">
-                <h1 class="page-title">The Journey</h1>
-                <p class="section-meta">My Story & Ambition</p>
-            </div>
-            
-            <div class="about-content">
-                <p class="lead-text">I am a passionate communicator and researcher focused on the intersection of media, society, and storytelling.</p>
-                
-                <p class="body-text">Over the past four years in the Media Studies and Journalism program at the University of Liberal Arts Bangladesh (ULAB), I have cultivated a deep understanding of digital publishing, documentary research, and feature writing. My approach is rooted in rigorous fact-checking, strategic event coordination, and a relentless curiosity to understand human behavior in the digital age.</p>
-                
-                <h3 class="about-subheading">Ambition & Commitment</h3>
-                <p class="body-text">My ambition is to shape narratives that drive meaningful conversations. Whether I am analyzing historical archives for a documentary or coordinating large-scale cultural events like the Trashion Show, I am deeply committed to authenticity and impact. I believe that in an era of rapid digital transformation, well-researched and empathetically told stories are more crucial than ever.</p>
-                
-                <p class="body-text">Looking forward, I aim to leverage my diverse skill set in journalism, research, and project management to contribute to innovative media campaigns and educational initiatives that resonate with global audiences.</p>
+            <div class="about-grid">
+                <!-- Text Column (Left) -->
+                <div class="about-text-column">
+                    <div class="section-header" style="border-bottom: none; margin-bottom: 2rem;">
+                        <h1 class="page-title">The Vision.</h1>
+                        <p class="section-meta">Story & Strategy</p>
+                    </div>
+                    
+                    <div class="about-content">
+                        <p class="lead-text" style="font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--color-text); line-height: 1.3;">
+                            "I believe that in a world flooded with information, clarity and conviction are what make a story resonate."
+                        </p>
+                        
+                        <p class="body-text">
+                            I am a media professional and researcher driven by the intersection of communication, society, and strategic storytelling. My journey through the Media Studies and Journalism program at ULAB has been defined by a commitment to rigorous inquiry and a sharp, professional edge.
+                        </p>
+                        
+                        <p class="body-text">
+                            From uncovering historical truths in documentary research to executing high-stakes public relations campaigns and cultural events, I approach every project with precision. I understand that effective communication is not just about writing well—it's about understanding human behavior, leveraging digital platforms, and executing a vision with confidence.
+                        </p>
+                        
+                        <h3 class="about-subheading">Looking Forward</h3>
+                        <p class="body-text">
+                            My ambition is to shape narratives that command attention and drive meaningful conversations. As I step into the professional arena, I am focused on roles that challenge me to synthesize complex information, lead cross-functional projects, and deliver impactful journalism to global audiences.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Image Column (Right) -->
+                <div class="about-image-column">
+                    <div class="about-image-frame">
+                        <img src="assets/about-photo.jpg" alt="Faria Akter Mitu" class="about-photo">
+                    </div>
+                </div>
             </div>
         </main>
 
         <!-- Contact Footer -->
         <footer class="section contact">
-            <h2 class="contact-title">Let's Connect.</h2>
+            <h2 class="contact-title" style="font-family: 'Playfair Display', serif; text-transform: none; letter-spacing: -0.02em;">Let's Connect.</h2>
             <div class="contact-links">
                 <a href="mailto:mitu.faria@example.com" class="contact-link">Email Me</a>
                 <a href="#" class="contact-link">LinkedIn</a>
