@@ -194,11 +194,18 @@ a {
 }
 
 .display-title {
-    font-size: clamp(4rem, 8vw, 8rem);
-    line-height: 0.9;
-    margin-bottom: var(--spacing-md);
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(3rem, 6.5vw, 6.5rem);
+    line-height: 1.05;
+    margin-bottom: 1.5rem;
+    color: var(--color-text); /* Ground the title with the dark color */
+    letter-spacing: -0.02em; /* Tighter for serif */
+    font-weight: 400; /* Regular weight for elegance */
+    text-transform: none; /* Sentence case/Title case looks better in serif */
+}
+
+.accent-dot {
     color: var(--color-accent);
-    letter-spacing: 0.05em;
 }
 
 .subtitle {
