@@ -549,3 +549,87 @@ a {
     line-height: 1.1;
     color: var(--color-accent);
 }
+/* Grid Layout for Academic Page */
+.academic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 3rem 2.5rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.grid-item-container {
+    text-align: center;
+    cursor: pointer;
+}
+
+.grid-card {
+    background-color: #F8F5F2; /* Soft beige to match screenshots */
+    border-radius: 12px;
+    padding: 3rem 1.5rem;
+    box-shadow: 0 4px 15px rgba(61, 12, 12, 0.04);
+    border: 1px solid rgba(61, 12, 12, 0.05);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 220px;
+    position: relative;
+}
+
+.grid-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background-color: var(--color-accent);
+    transition: width 0.4s ease;
+    border-radius: 3px 3px 0 0;
+}
+
+.grid-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(61, 12, 12, 0.08);
+}
+
+.grid-card:hover::after {
+    width: 100px;
+}
+
+.grid-icon {
+    width: 65px;
+    height: 65px;
+    margin-bottom: 1.8rem;
+    color: #4A332D; /* Dark brown for icons */
+    transition: transform 0.4s ease;
+}
+
+.grid-card:hover .grid-icon {
+    transform: scale(1.1);
+}
+
+.grid-icon svg {
+    width: 100%;
+    height: 100%;
+    fill: none; /* Keep stroke for lucide icons */
+}
+
+.grid-title {
+    font-size: 1.3rem;
+    color: #4A332D;
+    letter-spacing: 0.15em;
+    font-weight: 400; /* Assuming standard font from root */
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+
+.grid-meta {
+    font-size: 0.9rem;
+    color: rgba(74, 51, 45, 0.65);
+    font-weight: 500;
+}
