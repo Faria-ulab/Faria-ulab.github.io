@@ -57,79 +57,83 @@ const projectData = {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Modal / Side Panel Logic
+    // Tab Logic
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const tabPanes = document.querySelectorAll('.tab-pane');
+
+    tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            // Remove active class from all buttons and panes
+            tabBtns.forEach(b => b.classList.remove('active'));
+            tabPanes.forEach(p => p.classList.remove('active'));
+
+            // Add active class to clicked button
+            btn.classList.add('active');
+
+            // Show corresponding pane
+            const targetId = btn.getAttribute('data-tab');
+            const targetPane = document.getElementById(`tab-${targetId}`);
+            if (targetPane) {
+                targetPane.classList.add('active');
+            }
+        });
+    });
+
+
+    // Modal / Side Panel Logic (Only run if panel exists on the page)
     const panel = document.getElementById('project-panel');
     const overlay = document.getElementById('side-panel-overlay');
     const closeBtn = document.querySelector('.close-panel');
     const projectItems = document.querySelectorAll('.project-item');
 
-    const openPanel = () => {
-        panel.classList.add('active');
-        overlay.classList.add('active');
-        document.body.style.overflow = 'hidden';
-    };
+    if (panel && overlay && closeBtn) {
+        const openPanel = () => {
+            panel.classList.add('active');
+            overlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        };
 
-    const closePanel = () => {
-        panel.classList.remove('active');
-        overlay.classList.remove('active');
+        const closePanel = () => {
+            panel.classList.remove('active');
+            overlay.classList.remove('active');
+            
+            setTimeout(() => {
+                document.body.style.overflow = '';
+            }, 500);
+        };
+
+        projectItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const projectId = item.getAttribute('data-project');
+                const data = projectData[projectId];
+
+                if (data) {
+                    document.getElementById('panel-course').textContent = data.course;
+                    document.getElementById('panel-project-name').textContent = data.projectName;
+                    document.getElementById('panel-project-title-main').textContent = data.title;
+                    document.getElementById('panel-project-title').textContent = data.projectTitle;
+                    document.getElementById('panel-project-date').textContent = data.projectDate;
+                    document.getElementById('panel-description').textContent = data.description;
+                    document.getElementById('panel-justification').textContent = data.justification;
+                    document.getElementById('panel-learnings').textContent = data.learnings;
+                    
+                    const docViewer = document.getElementById('panel-document');
+                    if (docViewer) {
+                        docViewer.src = 'assets/project-doc.pdf';
+                    }
+
+                    openPanel();
+                }
+            });
+        });
+
+        closeBtn.addEventListener('click', closePanel);
+        overlay.addEventListener('click', closePanel);
         
-        // Wait for transition before resetting overflow
-        setTimeout(() => {
-            document.body.style.overflow = '';
-        }, 500);
-    };
-
-    projectItems.forEach(item => {
-        item.addEventListener('click', () => {
-            const projectId = item.getAttribute('data-project');
-            const data = projectData[projectId];
-
-            if (data) {
-                document.getElementById('panel-course').textContent = data.course;
-                document.getElementById('panel-project-name').textContent = data.projectName;
-                document.getElementById('panel-project-title-main').textContent = data.title;
-                document.getElementById('panel-project-title').textContent = data.projectTitle;
-                document.getElementById('panel-project-date').textContent = data.projectDate;
-                document.getElementById('panel-description').textContent = data.description;
-                document.getElementById('panel-justification').textContent = data.justification;
-                document.getElementById('panel-learnings').textContent = data.learnings;
-                document.getElementById('panel-document').src = 'assets/project-doc.pdf';
-
-                openPanel();
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && panel.classList.contains('active')) {
+                closePanel();
             }
         });
-    });
-
-    closeBtn.addEventListener('click', closePanel);
-    overlay.addEventListener('click', closePanel);
-    
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && panel.classList.contains('active')) {
-            closePanel();
-        }
-    });
-
-    // Navigation Active State Logic
-    const sections = document.querySelectorAll('.section');
-    const navLinks = document.querySelectorAll('.nav-link');
-
-    window.addEventListener('scroll', () => {
-        let current = '';
-        const scrollPosition = window.scrollY + 200; // Offset for header
-
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop;
-            const sectionHeight = section.clientHeight;
-            if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-                current = section.getAttribute('id');
-            }
-        });
-
-        navLinks.forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('href').includes(current)) {
-                link.classList.add('active');
-            }
-        });
-    });
+    }
 });

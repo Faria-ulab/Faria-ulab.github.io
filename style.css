@@ -131,12 +131,66 @@ a {
     }
 }
 
-.hero-image img {
-    width: 100%;
+/* Hero Image & Glassmorphism Cut Corner */
+.hero-image {
+    position: relative;
     max-width: 450px;
+    margin: 0 auto;
+}
+
+.hero-image-wrapper {
+    position: relative;
+    width: 100%;
+    /* Outer cut corner shape */
+    clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 50px, 100% 100%, 0 100%);
+    padding: 3px; /* This padding creates the edge line thickness */
+    overflow: hidden;
+    background-color: var(--color-subtle);
+}
+
+/* The color-changing spinning ribbon */
+.hero-image-wrapper::before {
+    content: '';
+    position: absolute;
+    top: -50%; 
+    left: -50%;
+    width: 200%; 
+    height: 200%;
+    background: conic-gradient(
+        from 0deg, 
+        transparent 70%, 
+        #ff8a8a 85%, 
+        var(--color-accent) 95%, 
+        transparent 100%
+    );
+    animation: rotateRibbon 4s linear infinite;
+    z-index: 1;
+}
+
+@keyframes rotateRibbon {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* The Glassmorphism Frame */
+.hero-image-frame {
+    position: relative;
+    z-index: 2;
+    /* Inner cut corner matching the outer one minus padding */
+    clip-path: polygon(0 0, calc(100% - 48px) 0, 100% 48px, 100% 100%, 0 100%);
+    background: rgba(252, 249, 249, 0.4);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 1rem;
+}
+
+.hero-image-frame img {
+    display: block;
+    width: 100%;
     height: auto;
-    object-fit: cover;
-    filter: sepia(20%) hue-rotate(-20deg); /* Slight tint to match theme */
+    /* Innermost cut corner */
+    clip-path: polygon(0 0, calc(100% - 40px) 0, 100% 40px, 100% 100%, 0 100%);
+    filter: sepia(20%) hue-rotate(-20deg);
 }
 
 .display-title {
@@ -413,4 +467,85 @@ a {
     height: 500px;
     background-color: var(--color-subtle);
     margin-top: 1rem;
+}
+/* Append to style.css */
+
+/* Tabbed Interface */
+.tabs-container {
+    margin-top: var(--spacing-md);
+}
+
+.tabs-nav {
+    display: flex;
+    gap: 2rem;
+    border-bottom: 1px solid var(--color-subtle);
+    margin-bottom: var(--spacing-md);
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 0.5rem;
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-text);
+    opacity: 0.5;
+    cursor: pointer;
+    padding: 0.5rem 0;
+    position: relative;
+    transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+.tab-btn:hover {
+    opacity: 0.8;
+}
+
+.tab-btn.active {
+    opacity: 1;
+    color: var(--color-accent);
+}
+
+.tab-btn::after {
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--color-accent);
+    transition: width 0.3s ease;
+}
+
+.tab-btn.active::after {
+    width: 100%;
+}
+
+.tab-pane {
+    display: none;
+    animation: fadeIn 0.4s ease forwards;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.about-subheading {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-accent);
+}
+
+.page-title {
+    font-size: clamp(3rem, 6vw, 6rem);
+    line-height: 1.1;
+    color: var(--color-accent);
 }
