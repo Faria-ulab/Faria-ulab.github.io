@@ -105,7 +105,23 @@ document.addEventListener('DOMContentLoaded', () => {
         projectItems.forEach(item => {
             item.addEventListener('click', () => {
                 const projectId = item.getAttribute('data-project');
-                const data = projectData[projectId];
+                let data = projectData[projectId];
+
+                // Fallback for placeholder items from the new grid
+                if (!data && projectId === 'placeholder') {
+                    const cardTitle = item.querySelector('.grid-title').innerText.replace('\n', ' ');
+                    const cardMeta = item.querySelector('.grid-meta').innerText;
+                    data = {
+                        course: cardMeta,
+                        projectName: 'Content in Development',
+                        title: cardTitle,
+                        projectTitle: 'Details Coming Soon',
+                        projectDate: 'TBA',
+                        description: 'Detailed description for this project will be uploaded soon. Please check back later.',
+                        justification: 'Information regarding the justification and process of this project is currently being curated.',
+                        learnings: 'The key learnings and outcomes from this coursework will be documented here.'
+                    };
+                }
 
                 if (data) {
                     document.getElementById('panel-course').textContent = data.course;
@@ -119,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     
                     const docViewer = document.getElementById('panel-document');
                     if (docViewer) {
-                        docViewer.src = 'assets/project-doc.pdf';
+                        docViewer.src = 'assets/project-doc.pdf'; // Keep the placeholder CV for now
                     }
 
                     openPanel();
