@@ -55,8 +55,8 @@ a {
 /* Header */
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    justify-content: center;
+    align-items: center;
     padding: var(--spacing-md) 0;
     margin-bottom: var(--spacing-lg);
     position: sticky;
