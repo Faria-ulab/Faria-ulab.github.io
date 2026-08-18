@@ -589,6 +589,15 @@ a {
     fill: none; /* Keep stroke for lucide icons */
 }
 
+/* Colorful Icons */
+.grid-item-container:nth-child(7n+1) .grid-icon { color: #E63946; } /* Vibrant Red */
+.grid-item-container:nth-child(7n+2) .grid-icon { color: #2A9D8F; } /* Teal */
+.grid-item-container:nth-child(7n+3) .grid-icon { color: #E9C46A; } /* Golden Yellow */
+.grid-item-container:nth-child(7n+4) .grid-icon { color: #F4A261; } /* Orange */
+.grid-item-container:nth-child(7n+5) .grid-icon { color: #264653; } /* Deep Blue-Green */
+.grid-item-container:nth-child(7n+6) .grid-icon { color: #8338EC; } /* Purple */
+.grid-item-container:nth-child(7n+7) .grid-icon { color: #3A86FF; } /* Bright Blue */
+
 .grid-title {
     font-size: 1.3rem;
     color: #4A332D;
