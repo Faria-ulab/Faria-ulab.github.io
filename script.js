@@ -1,82 +1,37 @@
 const projectData = {
-    'participatory-research': {
-        title: 'Water Crisis and Health Problems in a Marma Community',
+    'research-proposal': {
+        title: 'Branding Sculpture among Bangladeshi People',
         company: 'Academic Project',
-        course: 'Participatory Research Method',
-        projectName: 'Participatory Research Report',
-        projectTitle: 'PR-1: Spring 2026',
-        projectDate: 'Spring 2026',
-        description: 'Conducted a participatory research study with the Marma Indigenous community in Amtoli Marma Para, Bandarban, to understand how community members deal with water shortages and water-related diseases during summer.',
-        justification: 'This study utilized participatory methods such as Farmers Field School (FFS), Transect Walk, and Resource Mapping to engage community members as active partners in sharing knowledge, analyzing problems, and finding solutions.',
-        learnings: 'I learned how to formulate strong research questions, design appropriate methodologies, and develop action plans combining short-term and long-term solutions together with community members.'
+        course: 'Communication Research',
+        projectName: 'Research Proposal',
+        projectTitle: 'Branding Sculpture among Bangladeshi People',
+        projectDate: 'Spring 2023',
+        description: 'A group research proposal investigating public perception of sculpture as a viable art form and career path in Bangladesh, developed for the Communication Research course. The proposal opens by identifying the core problem: sculpture remains culturally undervalued and overlooked next to conventional "respectable" professions like medicine or engineering, despite genuine artistic and economic potential behind it. Built around five clearly defined research objectives — ranging from understanding public attitudes toward sculpture, to identifying strategies that could attract more people into the field, to exploring its potential to generate foreign income for Bangladesh — the proposal lays out a full qualitative research design. This includes a structured literature review establishing the existing gap in research on this topic, a data-collection strategy combining a single focus group discussion with systematic random sampling of one in every ten residents in the Bandarban area, and a complete project timeframe and budget for carrying out the fieldwork.',
+        justification: 'This project demonstrates the ability to design a complete, methodologically sound qualitative research proposal as part of a team, starting from an observed social gap and working through to a fully specified, executable research plan. It required defining a clear, narrow set of research objectives rather than an open-ended question, conducting a literature review to justify why the research was needed, and choosing sampling and data-collection methods appropriate to a niche, under-studied topic. It also required practical planning skills — setting a feasible timeframe and realistic budget for actual fieldwork — that go beyond theoretical coursework into applied research management. This early academic research training directly underlies the more advanced, rigorous qualitative research design Faria now applies in her master\'s thesis.',
+        learnings: 'Learned to build a full qualitative research proposal from the ground up: framing a research problem, conducting a structured literature review, and designing an appropriate sampling and data-collection strategy (focus group discussion, systematic random sampling). Developed early skills in group research planning, budgeting for fieldwork, and setting a realistic project timeframe — foundational to the more advanced qualitative research design used in the master\'s thesis.'
     },
-    'ict-development': {
-        title: 'Final Project',
+    'mask-making': {
+        title: 'From Chains to Change — Group Mask Installation',
         company: 'Academic Project',
-        course: 'ICT for Development',
-        projectName: 'Final Project MSJ3261',
-        projectTitle: 'Information and Communication Technology for Development',
-        projectDate: 'Fall 2025',
-        description: 'Completed a final project exploring the role of Information and Communication Technologies in driving social and economic development.',
-        justification: 'The project involved analyzing how digital tools and platforms can be leveraged to empower marginalized communities and improve public services. It required a deep understanding of both technological capabilities and socio-economic challenges.',
-        learnings: 'I gained insights into the digital divide and learned strategies for implementing inclusive technological solutions in developing regions.'
-    },
-    'emergency-comm': {
-        title: 'Emergency Communication',
-        company: 'Academic Project',
-        course: 'Emergency Communication',
-        projectName: 'Risk Management Report',
-        projectTitle: 'Crisis and Emergency Communication',
-        projectDate: 'Fall 2025',
-        description: 'Authored a detailed report on emergency communication strategies and risk management protocols.',
-        justification: 'This assignment tested my ability to design communication plans that operate under high-pressure, time-sensitive crisis scenarios. It required understanding audience psychology during emergencies and crafting clear, actionable messages.',
-        learnings: 'I developed skills in crisis response planning, rapid information dissemination, and stakeholder management during emergencies.'
-    },
-    'entertainment-edu': {
-        title: 'Edutainment Program Design',
-        company: 'Academic Project',
-        course: 'Entertainment Education',
-        projectName: 'Rongin Bangladesh',
-        projectTitle: 'Colorful Bangladesh TV Show',
+        course: 'Curriculum Integration (CI) — Theme: Rational Choice Theory',
+        projectName: 'Mask Making',
+        projectTitle: 'From Chains to Change',
         projectDate: '2025',
-        description: 'Designed an edutainment TV show titled "Rongin Bangladesh" aimed at promoting cultural awareness and national harmony among diverse ethnic communities in Bangladesh.',
-        justification: 'The project required balancing educational content with engaging entertainment formats. I designed episode structures, storylines, and interactive segments to tackle issues like stereotyping and cultural preservation.',
-        learnings: 'I learned how to use visual storytelling, dramatization, and media formats to effectively communicate social issues to a mass audience.'
+        description: 'A co-authored mixed-media mask installation exploring Rational Choice Theory through the lens of oppression, fear, and resistance. The mask is divided into a darker half representing restriction and a brighter half representing hope, surrounded by chains and barbed wire symbolising the forces that limit human choice, with a raised fist at the centre representing the decision to resist. The report documents the concept development, the symbolic use of colour and materials, the production and installation process, the exhibition, and structured audience feedback on whether the intended message was understood.',
+        justification: 'This project demonstrates the ability to collaboratively translate an abstract academic theory into a symbolic visual language legible to a general audience, and to gather and interpret structured audience feedback on that translation. It shows early competence in framing complex ideas through concrete, emotionally resonant imagery — a skill directly transferable to narrative framing in journalism.',
+        learnings: 'Learned to collaboratively translate abstract social theory into a physical, symbol-driven visual narrative; developed skills in concept pitching, shared creative decision-making, and using colour/material choices deliberately to carry meaning. Gained practical experience in collecting and interpreting structured audience feedback to test whether an intended message actually reaches viewers, and in critically reflecting on gaps between creative intent and audience interpretation.',
+        media: { type: 'image', src: 'assets/projects/Section 1 _ Group 11 - _From Chains to Change_ by [Faria Akter (223012075) & Md Tariquzzaman Sikder (223012037)].jpg' }
     },
-    'research-project': {
-        title: 'Research Proposal',
+    'blog-writing': {
+        title: 'The Dual Lives of Bangladeshi Young Footballers',
         company: 'Academic Project',
-        course: 'Research Project',
-        projectName: 'Independent Research',
-        projectTitle: 'Academic Research Proposal',
+        course: 'Communication Technology',
+        projectName: 'Blog Writing',
+        projectTitle: 'The Dual Lives of Bangladeshi Young Footballers',
         projectDate: '2025',
-        description: 'Developed a comprehensive research proposal focusing on academic and social communication strategies.',
-        justification: 'This coursework required identifying a research problem, structuring a methodology, and proposing actionable insights. It demonstrated my ability to conduct systematic research and design studies that address real-world communication issues.',
-        learnings: 'Developing this project helped me have a clear idea of how to write a complete research proposal in a systematic and structured manner. Each research proposal is interrelated and I was taught so that it is necessary to plan well before undertaking any research.'
-    },
-    'audio-production': {
-        title: 'Audio Production',
-        company: 'Academic Project',
-        course: 'Audio Production',
-        projectName: 'Audio Clip Production',
-        projectTitle: 'WA0017 Audio Project',
-        projectDate: '2023',
-        description: 'Produced and edited an audio production piece, focusing on sound quality, narrative audio flow, and technical mixing.',
-        justification: 'This project was an exercise in practical audio storytelling. The goal was to manipulate audio to convey emotion and message clearly without relying on visuals.',
-        learnings: 'I learned advanced audio editing techniques, leveling, and how sound effects and voice can be combined to engage an audience.',
-        media: { type: 'video', src: 'assets/projects/AUD-20230826-WA0017.mp3' }
-    },
-    'video-production': {
-        title: 'Video Production',
-        company: 'Academic Project',
-        course: 'Video Production',
-        projectName: 'Short Films and Video Art',
-        projectTitle: 'Table of Strain & Advisor Council',
-        projectDate: '2025',
-        description: 'Created multiple video projects including "Table of Strain" and a mock session of an Advisor Council.',
-        justification: 'These video projects required full-cycle video production including conceptualization, scripting, directing, shooting, and post-production editing.',
-        learnings: 'I developed technical skills in video editing, framing, lighting, and narrative pacing.',
-        media: { type: 'video', src: 'assets/projects/Table of Strain - Faria Akter.mp4' }
+        description: 'A short comparative feature profiling two young footballers on divergent paths after representing Bangladesh: Apu Roy, a 2018 Bangabandhu Gold Cup champion who left football to become a barber due to financial hardship, and Shaon, who continued in the sport with the backing of a footballing family. Built on direct interviews, the piece interrogates structural inequality and the lack of institutional support for talent in Bangladeshi football.',
+        justification: 'Demonstrates the ability to conduct original interview-based reporting and produce a publication-ready feature using digital writing and communication technology tools, building a comparative human-interest narrative that surfaces a structural critique of inequality in Bangladeshi sport through individual stories — early evidence of the narrative feature-writing approach later developed at TBS Panorama.',
+        learnings: 'Learned to conduct and structure interview-based reporting, to build a narrative around contrast between two real subjects rather than a single profile, and to let individual stories carry a broader structural argument about inequality and opportunity. Strengthened skills in producing publication-ready feature content using digital writing and communication technology tools.'
     },
     'advanced-english': {
         title: 'Cinecast Podcast Script',
@@ -89,53 +44,7 @@ const projectData = {
         justification: 'The project involved structuring an interview format, generating compelling dialogue between a host and a guest, and researching the current state of local cinema and literature.',
         learnings: 'I improved my conversational English writing skills, learning how to write scripts that sound natural when spoken while simultaneously conveying critical analysis.'
     },
-    'convergence-comm-1': {
-        title: 'Sustainable Fashion Initiative',
-        company: 'Academic Project',
-        course: 'Convergence Communication I',
-        projectName: 'TrashOff Show',
-        projectTitle: 'Trashion Show',
-        projectDate: '2025',
-        description: 'Organized and documented a "Trashion Show" to raise awareness about environmental sustainability through upcycled fashion.',
-        justification: 'This project combined event management with environmental advocacy. It served as a practical application of communication theories, using visual and performative arts to convey messages about waste reduction and recycling.',
-        learnings: 'I improved my skills in event coordination and learned how to translate abstract environmental concepts into tangible, engaging public events.',
-        media: { type: 'image', src: ['assets/projects/Trashion.jpg', 'assets/projects/Trashion 3.jpg', 'assets/projects/Trashion 4.jpg'] }
-    },
-    'convergence-comm-2': {
-        title: 'Rational Choice Theory Art',
-        company: 'Academic Project',
-        course: 'Convergence Communication II',
-        projectName: 'Curriculum Integration',
-        projectTitle: 'From Chains to Change',
-        projectDate: '2025',
-        description: 'Created a visual art project titled "From Chains to Change" reflecting on Rational Choice Theory and the social realities of oppression, freedom, and resistance.',
-        justification: 'The purpose was to encourage students to move beyond conventional classroom learning and express theoretical concepts through creative and practical work. The artwork explores how people make choices when placed in difficult or oppressive circumstances.',
-        learnings: 'I learned how to integrate theoretical concepts with visual art, and how symbols, colors, and composition can effectively communicate complex messages about social change.',
-        media: { type: 'image', src: 'assets/projects/Section 1 _ Group 11 - _From Chains to Change_ by [Faria Akter (223012075) & Md Tariquzzaman Sikder (223012037)].jpg' }
-    },
-    'c4d-planning': {
-        title: 'C4D Communication Planning',
-        company: 'Academic Project',
-        course: 'C4D Planning and Process',
-        projectName: 'Problem Definition and Strategy',
-        projectTitle: 'Addressing Childhood Malnutrition',
-        projectDate: '2025',
-        description: 'Developed a communication plan to address the severe issue of childhood malnutrition in rural Bangladesh.',
-        justification: 'This assignment required a thorough situation analysis, identifying variables like poverty, restricted healthcare access, and ingrained cultural practices that contribute to chronic nutritional deficiencies in children.',
-        learnings: 'I gained practical experience in problem definition, stakeholder analysis, and designing communication strategies aimed at driving behavior change and social development.'
-    },
-    'individual-report': {
-        title: 'Individual Report',
-        company: 'Academic Project',
-        course: 'Convergence Communication I',
-        projectName: 'Midterm Examination',
-        projectTitle: 'Convergence Communication Report',
-        projectDate: 'Fall 2023',
-        description: 'Completed an individual report for Convergence Communication 1 midterm examination.',
-        justification: 'This assignment demonstrated my ability to analyze and document convergence communication practices independently.',
-        learnings: 'I learned how to structure academic reports and critically evaluate communication strategies.'
-    },
-    'bangla-writing': {
+    'advanced-bangla': {
         title: 'Portfolio Assignment',
         company: 'Academic Project',
         course: 'Advanced Bangla Writing Skills',
@@ -146,139 +55,193 @@ const projectData = {
         justification: 'This coursework required advanced proficiency in Bengali literature and narrative structuring, allowing me to express complex emotions and cultural settings vividly in my native language.',
         learnings: 'I improved my descriptive writing skills in Bengali, learning how to use regional dialects and sensory details to build an immersive story.'
     },
-    'advertising-script': {
-        title: 'Advertising Script',
+    'trashion-show': {
+        title: 'Individual Report — Upcycled "Jungle" Trashion Garment',
         company: 'Academic Project',
-        course: 'Scriptwriting / Advertising',
-        projectName: 'MACES Advertisement Script',
-        projectTitle: 'Video Ad Script',
-        projectDate: '2025',
-        description: 'Drafted an initial video advertisement script for an educational consultancy firm (MACES).',
-        justification: 'The script was designed to connect with the target audience through relatable scenarios like economic frustration and political fatigue, ultimately offering a study-abroad solution.',
-        learnings: 'I learned how to format a professional video script and use visual cues, dramatic transitions, and humor to deliver a marketing message effectively.'
+        course: 'Curriculum Integration (CI) — Theme: Eco-System Restoration',
+        projectName: 'Trashion Show',
+        projectTitle: 'Individual Report — Upcycled "Jungle" Trashion Garment',
+        projectDate: 'December 2023',
+        description: 'An individual report documenting the design, production, and exhibition of an upcycled "trashion" garment built from reused green cloth, a repurposed wing, and broken shoes, representing a jungle destroyed by human action. The report covers the concept and layout rationale, the full production process (materials, team dynamics, obstacles), the exhibition setting, and structured feedback collected from five interviewees on message clarity and creative execution.',
+        justification: 'The project shows early competency in translating an environmental theme into a public-facing creative artifact, structuring audience feedback collection, and critically reflecting on both creative process and reception — foundational skills for narrative-driven, audience-centered communication work later expanded in professional feature writing.',
+        learnings: 'Learned to design and construct a wearable creative artifact from a theoretical/environmental prompt, manage a small production team under time pressure, and improvise with limited resources (upcycled materials). Developed skills in running structured audience-feedback interviews and using that feedback to critically evaluate whether a creative work communicated its intended message.',
+        media: { type: 'image', src: ['assets/projects/Trashion.jpg', 'assets/projects/Trashion 3.jpg', 'assets/projects/Trashion 4.jpg'] }
     },
-    'portfolio-report': {
-        title: 'Portfolio Report',
+    'video-art': {
+        title: 'Table of Strain',
         company: 'Academic Project',
-        course: 'MSJ 4299',
-        projectName: 'Final Portfolio Submission',
-        projectTitle: 'Media Studies & Journalism Portfolio',
-        projectDate: 'Summer 2026',
-        description: 'Compiled a comprehensive portfolio report documenting my academic journey, major projects, and self-reflection.',
-        justification: 'This report served as the capstone submission for my degree, requiring me to synthesize my work across various courses and reflect on my personal and professional growth.',
-        learnings: 'I developed self-evaluation skills and learned how to professionally present my collective academic achievements in a structured format.'
+        course: 'Curriculum Integration (CI) — Theme: Rational Choice Theory',
+        projectName: 'Video Art',
+        projectTitle: 'Table of Strain',
+        projectDate: '2025',
+        description: 'An individual reflection on a video-art piece visualising the emotional and psychological tension underlying decision-making. Using a confined circular frame, repetitive hand movements over fragmented objects, and lighting that shifts from dark to intense red, the work reinterprets Rational Choice Theory as a felt experience of pressure rather than a purely rational calculation.',
+        justification: 'Shows full individual authorship — concept, production, and critical reflection — and the capacity to render an academic theoretical framework in a non-literal, emotionally resonant register, reflecting the kind of interpretive, theory-grounded thinking now applied in thesis research.',
+        learnings: 'Learned to independently plan and execute a short video-art piece, making deliberate choices around framing, lighting, and repetition to build emotional meaning without dialogue or explanation. Gained experience managing every stage of production solo — concept, filming, and editing — and reflecting critically on how abstract theory can be represented through sustained visual metaphor.',
+        media: { type: 'video', src: 'assets/projects/Table of Strain - Faria Akter.mp4' }
+    },
+    'project-plan': {
+        title: 'Reducing Childhood Malnutrition in Rural Bangladesh — Communication Strategy',
+        company: 'Academic Project',
+        course: 'C4D Communication Planning and Process',
+        projectName: 'Project Plan',
+        projectTitle: 'Reducing Childhood Malnutrition in Rural Bangladesh — Communication Strategy',
+        projectDate: '2025',
+        description: 'A full communication-for-development strategy addressing childhood malnutrition in rural Bangladesh, built on a problem-tree analysis (poverty, maternal education, sanitation, healthcare access, cultural beliefs) and structured using the Logical Framework (Log Frame) approach. The plan defines goals, objectives, target behaviours (exclusive breastfeeding, hygiene, dietary diversity), multi-channel communication activities (health worker visits, radio, SMS, mother support groups), and monitoring indicators.',
+        justification: 'Demonstrates the ability to design a full evidence-based, multi-stakeholder development communication strategy from root-cause diagnosis to measurable behaviour-change outcomes — reflecting strong grounding in C4D frameworks (Log Frame Analysis, BCC) that inform Faria\'s broader interest in health communication and stigma-reduction strategy, directly relevant to her master\'s research on health information-seeking behaviour.',
+        learnings: 'Learned to build a communication strategy from root-cause analysis (problem tree) through to a full Log Frame structure with measurable indicators, verification methods, and risk assumptions. Developed skills in aligning multiple communication channels (interpersonal, mass media, digital) around a single behaviour-change goal, and in setting realistic, quantifiable success targets for a development intervention.'
+    },
+    'participatory-research': {
+        title: 'Water Crisis and Health Problems in a Marma Community of Bandarban',
+        company: 'Academic Project',
+        course: 'Participatory Research (PR-1)',
+        projectName: 'Research Project',
+        projectTitle: 'Water Crisis and Health Problems in a Marma Community of Bandarban',
+        projectDate: 'Spring 2026',
+        description: 'A field-based participatory research study conducted with the Marma Indigenous community of Amtoli Marma Para, Bandarban, examining how residents cope with seasonal water shortages and waterborne illness. Using Farmers Field School sessions, transect walks, and resource mapping with community members, the report documents reliance on unsafe hand-dug "Kua" pits, associated health risks (diarrhoea, skin infections, typhoid), and structural barriers (failed government infrastructure projects, deforestation, geographic isolation) — concluding with a co-developed short- and long-term action plan.',
+        justification: 'Demonstrates original participatory fieldwork with an Indigenous community, including trust-building with local leadership, oral informed consent in the Marma language, and direct sourcing from residents and officials. It reflects the field-reporting rigor, ethical sensitivity, and structural analysis Faria brings to marginalised-community reporting, and directly parallels the qualitative, community-centred research design used in her master\'s thesis methodology.',
+        learnings: 'Learned to design and conduct participatory fieldwork with an Indigenous community, including culturally respectful entry, trust-building with local leadership, and obtaining informed consent in a language other than English or Bangla. Developed practical skills in participatory methods (Farmers Field School, transect walks, resource mapping) and in co-producing an action plan with community members rather than imposing external solutions.'
+    },
+    'ict-development': {
+        title: '"Hasina and Friends": A Case Study of ICT4D Project Failure in Bangladesh',
+        company: 'Academic Project',
+        course: 'MSJ3261 — ICT for Development (ICT4D)',
+        projectName: 'ICT for Development',
+        projectTitle: '"Hasina and Friends": A Case Study of ICT4D Project Failure in Bangladesh',
+        projectDate: 'Fall 2025',
+        description: 'A critical case-study analysis of "Hasina and Friends," a government-run interactive learning platform for children (ages 6–16) built under the IDEA project and shut down within two years despite an estimated BDT 18–20 crore budget. The report investigates the platform\'s design, procurement, and launch; identifies technical, organisational, political, and sustainability failures; and closes with actionable recommendations — user-centred design, independent monitoring, capacity building, and long-term maintenance planning — for future state-led ICT4D initiatives.',
+        justification: 'Demonstrates the ability to conduct an evidence-based institutional failure analysis, synthesising government records, news investigations, and academic ICT4D theory (Heeks, 2002; 2017) into a structured accountability critique. This kind of investigative, document-based analysis of public-fund mismanagement is directly aligned with the accountability journalism Faria practices professionally, and shows early command of development-communication theory applied to a real national case.',
+        learnings: 'Learned to build an evidence-based institutional case study using government records, news investigations, and academic ICT4D theory, and to structure a failure analysis across technical, organisational, political, and sustainability dimensions. Developed skills in translating an accountability critique into concrete, actionable policy recommendations — directly relevant to investigative and accountability journalism.'
+    },
+    'health-comm': {
+        title: 'Health Communication Plan — Diaspora Student Wellbeing Documentary',
+        company: 'Academic Project',
+        course: 'MSJ3262 — Health Communication',
+        projectName: 'Health Comm.',
+        projectTitle: 'Health Communication Plan — Diaspora Student Wellbeing Documentary',
+        projectDate: 'Spring 2025',
+        description: 'A full health communication plan for a proposed documentary on food insecurity and mental health stigma among Bangladeshi university students, built on the Health Belief Model, Social Cognitive Theory, Theory of Planned Behaviour, and Agenda-Setting Theory. The plan details audience segmentation, purposive/snowball sampling of six participants, a multi-channel dissemination strategy, a budget, and ethical safeguards for discussing mental health.',
+        justification: 'Reflects strong grounding in applying communication theory to a stigmatised health topic — directly relevant to the ongoing master\'s thesis on stigma, taboo, and health information-seeking behaviour among female ULAB students, showing continuity in theoretical interest and methodological rigour.',
+        learnings: 'Learned to apply multiple health communication theories (HBM, SCT, TPB, Agenda-Setting) together within a single plan, and to design a purposive/snowball sampling strategy for a sensitive, stigma-adjacent topic. Developed skills in ethical planning for documentary work involving vulnerable disclosures, and in budgeting and channel selection for a low-resource production.'
+    },
+    'emergency-comm': {
+        title: 'Dengue Outbreak Emergency Communication Plan',
+        company: 'Academic Project',
+        course: 'Emergency Communication',
+        projectName: 'Emergency com.',
+        projectTitle: 'Dengue Outbreak Emergency Communication Plan',
+        projectDate: 'Fall 2025',
+        description: 'A comprehensive Emergency Communication Plan addressing the preparedness, response, and early-recovery phases of a dengue outbreak in Bangladesh. The plan applies Risk Communication and Community Engagement (RCCE) principles and includes a risk/vulnerability analysis, audience segmentation (mothers, rural decision-makers, youth, frontline health workers), a colour-coded (Green/Yellow/Red) core messaging framework, a "Truth Sandwich" strategy for rumour correction, sample SMS/radio/poster content in Bangla, a multi-channel dissemination strategy, and a monitoring, feedback, and ethics framework grounded in WHO, UNICEF, and DGHS guidance.',
+        justification: 'This project demonstrates the ability to translate technical public-health guidance into clear, audience-specific, life-saving messaging — a core skill for health and development communication. It shows command of RCCE theory, message framing for low-literacy and high-risk audiences, and rumour-management strategy, directly building the theoretical and practical foundation (framing, source credibility, audience trust) that now underpins the master\'s thesis on stigma, trust, and health information-seeking behaviour.',
+        learnings: 'Learned to apply RCCE principles to design a full-cycle emergency communication plan, including audience-specific message framing, a colour-coded triage messaging system, and a structured rumour-correction technique ("Truth Sandwich"). Developed skills in writing life-saving content in Bangla for low-literacy audiences and in coordinating multi-channel dissemination across SMS, radio, and community volunteers.'
+    },
+    'edutainment': {
+        title: 'Rongin Bangladesh — Edutainment TV Program Concept',
+        company: 'Academic Project',
+        course: 'Communication for Development — Edutainment Program Design',
+        projectName: 'Edutainment',
+        projectTitle: 'Rongin Bangladesh — Edutainment TV Program Concept',
+        projectDate: '2025',
+        description: 'A full concept design for "Rongin Bangladesh" ("Colorful Bangladesh"), a proposed TV edutainment program addressing the marginalisation and cultural erasure of Bangladesh\'s ethnic minority communities (Garo, Chakma, Marma, Mro, Hajong, Santal). The proposal details a four-segment episode structure (storytelling, lifestyle, community voices, interactive quiz), a full sample episode on the Garo community, target audiences, guest structure, and the entertainment-education balance intended to build national cultural inclusion.',
+        justification: 'Shows the ability to design an original mass-media format that operationalises development-communication goals — cultural preservation, stereotype reduction, national harmony — into a concrete, producible program structure. This demonstrates format and audience-design thinking that complements Faria\'s print feature work with a broadcast/edutainment lens.',
+        learnings: 'Learned to design a full broadcast format from a development-communication goal, including episode structure, audience segmentation, and a worked sample episode. Developed skills in balancing entertainment value (dramatisation, music, interactive quizzes) with educational intent, and in designing content meant to reduce stereotyping and build national cultural inclusion.'
+    },
+    'advertising': {
+        title: 'Initial Script — MACES Study Abroad Campaign',
+        company: 'Academic Project',
+        course: 'Advertising',
+        projectName: 'Advertising',
+        projectTitle: 'Initial Script — MACES Study Abroad Campaign',
+        projectDate: '2025',
+        description: 'A five-scene narrative advertisement script following three young women through scenes of price inflation, disengagement from political trends, and general disillusionment with the state of the country, before converging on a "study abroad" resolution promoted by an educational consultancy (MACES). Each scene is paired with an explicit social message — economic stagnation, political apathy, and loss of national faith among Bangladeshi youth.',
+        justification: 'Demonstrates the ability to translate socio-political commentary into a commercially viable, emotionally engaging visual narrative — showing range beyond journalistic writing into scripted commercial storytelling, while still grounding the work in genuine social observation about youth disillusionment and emigration aspiration in Bangladesh.',
+        learnings: 'Learned to write a scene-by-scene commercial script that layers social commentary underneath an entertaining, character-driven narrative, and to plan visual/comedic beats (dramatic transitions, physical comedy) that keep a brand message engaging rather than didactic. Developed skills in balancing client messaging goals with authentic social observation.'
     }
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Tab Logic
-    const tabBtns = document.querySelectorAll('.tab-btn');
-    const tabPanes = document.querySelectorAll('.tab-pane');
+    const gridItems = document.querySelectorAll('.project-item');
+    const overlay = document.getElementById('side-panel-overlay');
+    const panel = document.getElementById('project-panel');
+    const closeBtn = document.querySelector('.close-panel');
 
-    tabBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            // Remove active class from all buttons and panes
-            tabBtns.forEach(b => b.classList.remove('active'));
-            tabPanes.forEach(p => p.classList.remove('active'));
+    // DOM Elements for Panel
+    const pCourse = document.getElementById('panel-course');
+    const pTitleMain = document.getElementById('panel-project-title-main');
+    const pName = document.getElementById('panel-project-name');
+    const pTitle = document.getElementById('panel-project-title');
+    const pDate = document.getElementById('panel-project-date');
+    const pDesc = document.getElementById('panel-description');
+    const pJust = document.getElementById('panel-justification');
+    const pLearn = document.getElementById('panel-learnings');
+    const pMediaContainer = document.getElementById('panel-media-container');
 
-            // Add active class to clicked button
-            btn.classList.add('active');
+    function openPanel(projectId) {
+        const data = projectData[projectId];
+        if(!data) return;
 
-            // Show corresponding pane
-            const targetId = btn.getAttribute('data-tab');
-            const targetPane = document.getElementById(`tab-${targetId}`);
-            if (targetPane) {
-                targetPane.classList.add('active');
+        // Populate text
+        pCourse.textContent = data.course || '';
+        pTitleMain.textContent = data.title || '';
+        pName.textContent = data.projectName || '';
+        pTitle.textContent = data.projectTitle || '';
+        pDate.textContent = data.projectDate || '';
+        pDesc.textContent = data.description || '';
+        pJust.textContent = data.justification || '';
+        pLearn.textContent = data.learnings || '';
+        
+        // Populate media
+        pMediaContainer.innerHTML = '';
+        if (data.media) {
+            if (data.media.type === 'image') {
+                const srcs = Array.isArray(data.media.src) ? data.media.src : [data.media.src];
+                srcs.forEach(src => {
+                    const img = document.createElement('img');
+                    img.src = src;
+                    img.alt = 'Project Image';
+                    img.style.width = '100%';
+                    img.style.marginBottom = '1rem';
+                    img.style.borderRadius = 'var(--radius)';
+                    pMediaContainer.appendChild(img);
+                });
+            } else if (data.media.type === 'video') {
+                const video = document.createElement('video');
+                video.src = data.media.src;
+                video.controls = true;
+                video.style.width = '100%';
+                video.style.borderRadius = 'var(--radius)';
+                pMediaContainer.appendChild(video);
             }
+        } else {
+            pMediaContainer.innerHTML = '<p style="color:var(--text-secondary); text-align:center; padding: 2rem; border: 1px dashed var(--border);">No media available for this project.</p>';
+        }
+
+        // Show panel
+        overlay.classList.add('active');
+        panel.classList.add('active');
+        document.body.style.overflow = 'hidden'; // Prevent background scrolling
+    }
+
+    function closePanel() {
+        overlay.classList.remove('active');
+        panel.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    // Event Listeners
+    gridItems.forEach(item => {
+        item.addEventListener('click', () => {
+            const projectId = item.getAttribute('data-project');
+            openPanel(projectId);
         });
     });
 
+    closeBtn.addEventListener('click', closePanel);
+    overlay.addEventListener('click', closePanel);
 
-    // Modal / Side Panel Logic (Only run if panel exists on the page)
-    const panel = document.getElementById('project-panel');
-    const overlay = document.getElementById('side-panel-overlay');
-    const closeBtn = document.querySelector('.close-panel');
-    const projectItems = document.querySelectorAll('.project-item');
-
-    if (panel && overlay && closeBtn) {
-        const openPanel = () => {
-            panel.classList.add('active');
-            overlay.classList.add('active');
-            document.body.style.overflow = 'hidden';
-        };
-
-        const closePanel = () => {
-            panel.classList.remove('active');
-            overlay.classList.remove('active');
-            
-            setTimeout(() => {
-                document.body.style.overflow = '';
-            }, 500);
-        };
-
-        projectItems.forEach(item => {
-            item.addEventListener('click', () => {
-                const projectId = item.getAttribute('data-project');
-                let data = projectData[projectId];
-
-                // Fallback for placeholder items from the new grid
-                if (!data && projectId === 'placeholder') {
-                    const cardTitle = item.querySelector('.grid-title').innerText.replace('\n', ' ');
-                    const cardMeta = item.querySelector('.grid-meta').innerText;
-                    data = {
-                        course: cardMeta,
-                        projectName: 'Content in Development',
-                        title: cardTitle,
-                        projectTitle: 'Details Coming Soon',
-                        projectDate: 'TBA',
-                        description: 'Detailed description for this project will be uploaded soon. Please check back later.',
-                        justification: 'Information regarding the justification and process of this project is currently being curated.',
-                        learnings: 'The key learnings and outcomes from this coursework will be documented here.'
-                    };
-                }
-
-                if (data) {
-                    document.getElementById('panel-course').textContent = data.course || '';
-                    document.getElementById('panel-project-name').textContent = data.projectName || '';
-                    document.getElementById('panel-project-title-main').textContent = data.title || '';
-                    document.getElementById('panel-project-title').textContent = data.projectTitle || '';
-                    document.getElementById('panel-project-date').textContent = data.projectDate || '';
-                    document.getElementById('panel-description').textContent = data.description || '';
-                    document.getElementById('panel-justification').textContent = data.justification || '';
-                    document.getElementById('panel-learnings').textContent = data.learnings || '';
-                    
-                    const mediaContainer = document.getElementById('panel-media-container');
-                    if (mediaContainer) {
-                        mediaContainer.innerHTML = '';
-                        if (data.media) {
-                            if (data.media.type === 'video') {
-                                mediaContainer.innerHTML = `<video controls width="100%" style="border-radius: 8px; margin-bottom: 1rem;"><source src="${data.media.src}" type="video/mp4"></video>`;
-                            } else if (data.media.type === 'image') {
-                                if (Array.isArray(data.media.src)) {
-                                    data.media.src.forEach(src => {
-                                        mediaContainer.innerHTML += `<img src="${src}" width="100%" style="margin-bottom:1rem; border-radius: 8px;">`;
-                                    });
-                                } else {
-                                    mediaContainer.innerHTML = `<img src="${data.media.src}" width="100%" style="margin-bottom:1rem; border-radius: 8px;">`;
-                                }
-                            } else if (data.media.type === 'pdf') {
-                                mediaContainer.innerHTML = `<div class="iframe-wrapper"><iframe src="${data.media.src}" title="Project Document" width="100%" height="100%" frameborder="0"></iframe></div>`;
-                            }
-                        }
-                    }
-
-                    openPanel();
-                }
-            });
-        });
-
-        closeBtn.addEventListener('click', closePanel);
-        overlay.addEventListener('click', closePanel);
-        
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && panel.classList.contains('active')) {
-                closePanel();
-            }
-        });
-    }
+    // Escape key to close
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && panel.classList.contains('active')) {
+            closePanel();
+        }
+    });
 });
