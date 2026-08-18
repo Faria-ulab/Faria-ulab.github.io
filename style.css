@@ -744,6 +744,15 @@ a {
     line-height: 1.6;
 }
 
+.timeline-desc ul {
+    margin-top: 0.5rem;
+    padding-left: 1.2rem;
+}
+
+.timeline-desc li {
+    margin-bottom: 0.3rem;
+}
+
 .section-divider {
     height: 1px;
     background-color: var(--color-subtle);
