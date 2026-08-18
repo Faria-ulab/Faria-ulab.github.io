@@ -57,8 +57,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: var(--spacing-md) 0;
-    margin-bottom: var(--spacing-lg);
+    padding: 1rem 0; /* Minimized vertical padding */
+    margin-bottom: 1rem; /* Minimized bottom margin */
     position: sticky;
     top: 0;
     background-color: rgba(252, 249, 249, 0.95);
@@ -832,7 +832,6 @@ a {
     align-items: center;
     justify-content: flex-start;
     text-align: left;
-    margin-top: -2rem; /* Adjust if header spacing is too large */
 }
 
 /* Header adjustments for full bleed */
