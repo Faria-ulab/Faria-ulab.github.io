@@ -11,7 +11,7 @@
     --spacing-lg: 5rem;
     --spacing-xl: 10rem;
     
-    --panel-width: 600px;
+    --panel-width: 50vw;
 }
 
 * {
@@ -898,3 +898,4 @@ a {
 .text-center {
     text-align: center;
 }
+@media (max-width: 900px) { :root { --panel-width: 100vw; } }
