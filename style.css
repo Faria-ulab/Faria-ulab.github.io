@@ -105,6 +105,12 @@ a {
     padding-bottom: 2rem;
 }
 
+.section-header-compact {
+    margin-bottom: var(--spacing-md);
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
 .section-title {
     font-size: clamp(2rem, 4vw, 4rem);
     line-height: 1.1;
@@ -506,6 +512,13 @@ a {
     line-height: 1.1;
     color: var(--color-accent);
 }
+
+.page-title-small {
+    font-size: clamp(2rem, 4vw, 4rem);
+    line-height: 1.1;
+    color: var(--color-accent);
+    text-align: center;
+}
 /* Grid Layout for Academic Page */
 .academic-grid {
     display: grid;
@@ -724,8 +737,11 @@ a {
 
 .section-divider {
     height: 1px;
-    width: 100%;
     background-color: var(--color-subtle);
+    margin: var(--spacing-lg) 0;
+}
+
+.section-divider.compact {
     margin: var(--spacing-md) 0;
 }
 
@@ -767,30 +783,29 @@ a {
 }
 /* Academic Intro Compact */
 .academic-intro.compact {
-    text-align: center;
     max-width: 800px;
     margin: 0 auto;
     padding: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
 }
 
-.academic-line-1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.8rem;
-    color: var(--color-text);
-    margin-bottom: 0.5rem;
-}
-
-.academic-line-1 strong {
-    font-weight: 400;
+.ulab-logo {
+    height: 40px;
+    width: auto;
 }
 
 .academic-line-2 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--color-accent);
     opacity: 0.9;
     letter-spacing: 0.05em;
     line-height: 1.5;
+    margin: 0;
 }
 
 .academic-line-2 .divider {
