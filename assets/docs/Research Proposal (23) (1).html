@@ -1,0 +1,832 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="CreationTime" content="2026-08-18T12:08:41Z">
+  <meta name="ModificationTime" content="2026-08-18T12:08:41Z">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; min-height: 14.0px}
+    p.p2 {margin: 5.3px 0.0px 0.0px 0.0px; min-height: 14.0px}
+    p.p3 {margin: 0.0px 87.7px 0.0px 96.2px; text-align: center; font: 12.0px Times; color: #333333}
+    p.p4 {margin: 4.5px 87.7px 0.0px 95.8px; text-align: center; font: 15.5px Times; color: #333333}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.5px Times; color: #333333; min-height: 19.0px}
+    p.p6 {margin: 6.6px 0.0px 0.0px 0.0px; font: 10.0px Times; min-height: 13.0px}
+    p.p7 {margin: 11.7px 0.0px 0.0px 16.0px; font: 10.5px Times; color: #333333}
+    p.p8 {margin: 2.5px 0.0px 0.0px 16.0px; font: 10.5px 'Arial Black'; color: #333333}
+    p.p9 {margin: 2.5px 0.0px 0.0px 16.0px; font: 10.5px Times; color: #333333}
+    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.5px Times; color: #333333; min-height: 13.0px}
+    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 6.5px Times; min-height: 8.0px}
+    p.p12 {margin: 3.0px 0.0px 0.0px 0.0px; font: 6.5px Times; min-height: 8.0px}
+    p.p13 {margin: 0.1px 0.0px 0.0px 147.9px; font: 6.5px Times; color: #fefefe}
+    p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; font: 6.5px Times; color: #fefefe; min-height: 8.0px}
+    p.p15 {margin: 2.1px 0.0px 0.0px 0.0px; font: 6.5px Times; color: #fefefe; min-height: 8.0px}
+    p.p16 {margin: 0.0px 114.4px 0.0px 70.0px; text-align: center; font: 6.5px Times; color: #fefefe}
+    p.p17 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 6.5px Times; color: #fefefe; min-height: 8.0px}
+    p.p18 {margin: 0.0px 0.0px 0.0px 16.8px; font: 10.0px Times; min-height: 13.0px}
+    p.p19 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Times; min-height: 13.0px}
+    p.p20 {margin: 2.2px 0.0px 0.0px 0.0px; font: 6.5px Times; min-height: 8.0px}
+    p.p21 {margin: 0.1px 0.0px 0.0px 82.0px; font: 6.5px Times; color: #fefefe}
+    p.p22 {margin: 7.2px 0.0px 0.0px 0.0px; font: 6.5px Times; color: #fefefe; min-height: 8.0px}
+    p.p23 {margin: 0.0px 0.0px 0.0px 129.7px; font: 6.5px Times; color: #fefefe}
+    p.p24 {margin: 0.9px 0.0px 0.0px 0.0px; font: 6.5px Times; min-height: 8.0px}
+    p.p25 {margin: 6.8px 0.0px 0.0px 0.0px; font: 6.5px Times; color: #fefefe; min-height: 8.0px}
+    p.p26 {margin: 0.0px 218.4px 0.0px 70.0px; text-align: center; font: 6.5px Times; color: #fefefe}
+    p.p27 {margin: 6.0px 0.0px 0.0px 0.0px; font: 6.5px Times; color: #fefefe; min-height: 8.0px}
+    p.p28 {margin: 0.0px 137.9px 0.0px 0.0px; text-align: right; font: 6.5px Times; color: #fefefe}
+    p.p29 {margin: 6.3px 0.0px 0.0px 0.0px; font: 6.5px Times; color: #fefefe; min-height: 8.0px}
+    p.p30 {margin: 0.0px 108.7px 0.0px 70.0px; text-align: center; font: 6.5px Times; color: #fefefe}
+    p.p31 {margin: 5.5px 0.0px 0.0px 0.0px; font: 6.5px Times; color: #fefefe; min-height: 8.0px}
+    p.p32 {margin: 0.0px 110.5px 0.0px 70.0px; text-align: center; font: 6.5px Times; color: #fefefe}
+    p.p33 {margin: 0.0px 87.7px 0.0px 215.5px; text-align: center; font: 6.5px Times; color: #fefefe}
+    p.p34 {margin: 6.2px 0.0px 0.0px 0.0px; font: 6.5px Times; color: #fefefe; min-height: 8.0px}
+    p.p35 {margin: 0.0px 0.0px 0.0px 125.8px; font: 6.5px Times; color: #fefefe}
+    p.p36 {margin: 2.9px 0.0px 0.0px 0.0px; font: 6.5px Times; min-height: 8.0px}
+    p.p37 {margin: 0.0px 0.0px 0.0px 126.2px; font: 6.5px Times; color: #fefefe}
+    p.p38 {margin: 0.1px 0.0px 0.0px 70.0px; text-align: center; font: 6.5px Times; color: #fefefe}
+    p.p39 {margin: 1.1px 0.0px 0.0px 0.0px; font: 6.5px Times; color: #fefefe; min-height: 8.0px}
+    p.p40 {margin: 6.0px 0.0px 0.0px 0.0px; font: 6.5px Times; min-height: 8.0px}
+    p.p41 {margin: 0.0px 131.2px 0.0px 0.0px; text-align: right; font: 6.5px Times; color: #fefefe}
+    p.p42 {margin: 1.3px 0.0px 0.0px 0.0px; font: 6.5px Times; color: #fefefe; min-height: 8.0px}
+    p.p43 {margin: 0.0px 0.0px 0.0px 135.4px; font: 6.5px Times; color: #fefefe}
+    p.p44 {margin: 7.0px 0.0px 0.0px 0.0px; font: 6.5px Times; min-height: 8.0px}
+    p.p45 {margin: 0.0px 0.0px 0.0px 82.0px; font: 6.5px Times; color: #fefefe}
+    p.p46 {margin: 0.1px 188.6px 0.0px 70.0px; text-align: center; font: 6.5px Times; color: #fefefe}
+    p.p47 {margin: 0.0px 87.7px 0.0px 0.0px; text-align: center; font: 6.5px Times; color: #fefefe}
+    p.p48 {margin: 7.1px 0.0px 0.0px 0.0px; font: 6.5px Times; min-height: 8.0px}
+    p.p49 {margin: 0.0px 0.0px 0.0px 113.3px; font: 6.5px Times; color: #fefefe}
+    p.p50 {margin: 0.1px 0.0px 0.0px 0.0px; font: 6.5px Times; color: #fefefe; min-height: 8.0px}
+    p.p51 {margin: 0.0px 0.0px 0.0px 150.3px; font: 6.5px Times; color: #fefefe}
+    p.p52 {margin: 4.3px 0.0px 0.0px 0.0px; font: 6.5px Times; color: #fefefe; min-height: 8.0px}
+    p.p53 {margin: 0.0px 0.0px 0.0px 69.1px; text-align: center; font: 6.5px Times; color: #fefefe}
+    p.p54 {margin: 5.8px 0.0px 0.0px 0.0px; font: 6.5px Times; color: #fefefe; min-height: 8.0px}
+    p.p55 {margin: 4.7px 0.0px 0.0px 0.0px; font: 6.5px Times; color: #fefefe; min-height: 8.0px}
+    p.p56 {margin: 0.1px 0.0px 0.0px 113.3px; font: 6.5px Times; color: #fefefe}
+    p.p57 {margin: 5.3px 0.0px 0.0px 27.2px; font: 54.0px Times; color: #ff0000}
+    p.p58 {margin: 5.5px 0.0px 0.0px 0.0px; font: 54.0px Times; color: #ff0000}
+    p.p59 {margin: 0.1px 0.0px 0.0px 0.0px; font: 2.0px Times; min-height: 4.0px}
+    p.p60 {margin: 5.5px 0.0px 0.0px 27.2px; font: 9.0px Times; color: #ff0000}
+    p.p61 {margin: 0.1px 0.0px 0.0px 0.0px; font: 3.0px Times; min-height: 4.0px}
+    p.p62 {margin: 0.0px 0.0px 0.0px 0.0px; font: 3.0px Times; min-height: 4.0px}
+    p.p63 {margin: 5.0px 0.0px 0.0px 0.0px; font: 3.0px Times; min-height: 4.0px}
+    p.p64 {margin: 0.0px 18.1px 0.0px 0.0px; text-align: right; font: 18.0px Times; color: #333333}
+    p.p65 {margin: 4.3px 0.0px 0.0px 27.2px; font: 11.0px Times; color: #333333}
+    p.p66 {margin: 8.8px 0.0px 0.0px 27.2px; font: 36.0px Times; color: #333333}
+    p.p67 {margin: 0.5px 0.0px 0.0px 27.2px; font: 11.0px Times; color: #333333}
+    p.p68 {margin: 8.8px 0.0px 0.0px 27.2px; font: 18.0px Times; color: #333333}
+    p.p69 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Times; color: #333333; min-height: 13.0px}
+    p.p70 {margin: 6.2px 0.0px 0.0px 0.0px; font: 11.0px Times; color: #333333; min-height: 13.0px}
+    p.p71 {margin: 0.0px 0.0px 0.0px 16.0px; font: 1.5px Times; min-height: 1.0px}
+    p.p72 {margin: 9.4px 101.2px 0.0px 72.3px; font: 12.0px Times; color: #ff0000}
+    p.p73 {margin: 0.1px 0.0px 0.0px 72.3px; font: 18.0px Times; color: #333333}
+    p.p74 {margin: 3.9px 0.0px 0.0px 0.0px; font: 18.0px Times; color: #333333}
+    p.p75 {margin: 3.9px 0.0px 0.0px 0.0px; font: 37.5px Times; color: #333333}
+    p.p76 {margin: 0.5px 0.0px 0.0px 0.0px; font: 5.5px Times; min-height: 6.0px}
+    p.p77 {margin: 11.4px 0.0px 0.0px 72.3px; font: 12.0px Times; color: #e70cd6}
+    p.p78 {margin: 0.0px 0.0px 0.0px 72.3px; font: 17.0px Times; color: #ffffff}
+    p.p79 {margin: 2.0px 0.0px 0.0px 0.0px; font: 17.0px Times; color: #ffffff}
+    p.p80 {margin: 0.2px 0.0px 0.0px 0.0px; font: 9.5px Times; min-height: 11.0px}
+    p.p81 {margin: 11.4px 0.0px 0.0px 72.3px; font: 12.0px Times; color: #8b05ff}
+    p.p82 {margin: 0.1px 0.0px 0.0px 0.0px; font: 9.5px Times; min-height: 11.0px}
+    p.p83 {margin: 0.0px 153.1px 0.0px 72.3px; font: 18.0px Times; color: #333333}
+    p.p84 {margin: 2.1px 0.0px 0.0px 72.3px; font: 11.0px Times; color: #777777}
+    p.p85 {margin: 0.1px 0.0px 0.0px 0.0px; font: 5.5px Times; min-height: 6.0px}
+    p.p86 {margin: 0.0px 128.4px 0.0px 72.3px; font: 18.0px Times; color: #333333}
+    p.p87 {margin: 0.0px 147.0px 0.0px 72.3px; font: 18.0px Times; color: #333333}
+    p.p88 {margin: 0.0px 0.0px 0.0px 0.0px; font: 5.5px Times; min-height: 6.0px}
+    p.p89 {margin: 2.8px 0.0px 0.0px 0.0px; font: 5.5px Times; min-height: 6.0px}
+    p.p90 {margin: 0.0px 0.0px 0.0px 27.2px; font: 17.0px Times; color: #ffffff}
+    p.p91 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.0px Times; color: #ffffff; min-height: 20.0px}
+    p.p92 {margin: 0.8px 0.0px 0.0px 0.0px; font: 17.0px Times; color: #ffffff; min-height: 20.0px}
+    p.p93 {margin: 0.7px 0.0px 0.0px 0.0px; font: 17.0px Times; color: #ffffff; min-height: 20.0px}
+    p.p94 {margin: 0.1px 0.0px 0.0px 27.2px; font: 17.0px Times; color: #ffffff}
+    p.p95 {margin: 0.9px 0.0px 0.0px 0.0px; font: 17.0px Times; color: #ffffff; min-height: 20.0px}
+    p.p96 {margin: 12.4px 0.0px 0.0px 16.0px; font: 12.0px Times; color: #792e05}
+    p.p97 {margin: 1.2px 0.0px 0.0px 16.0px; font: 11.0px Times; color: #777777}
+    p.p98 {margin: 11.9px 0.0px 0.0px 0.0px; font: 11.0px Times; color: #777777; min-height: 13.0px}
+    p.p99 {margin: 0.0px 0.0px 0.0px 16.0px; font: 12.0px Times; color: #054679}
+    p.p100 {margin: 0.0px 0.0px 0.0px 16.0px; font: 12.0px Times; color: #993399}
+    p.p101 {margin: 0.0px 0.0px 0.0px 16.0px; font: 12.0px Times; color: #4e7501}
+    p.p102 {margin: 0.0px 0.0px 0.0px 16.0px; font: 12.0px Times; color: #231c9a}
+    p.p103 {margin: 0.0px 0.0px 0.0px 16.0px; font: 11.0px Times; color: #777777}
+    p.p104 {margin: 7.3px 0.0px 0.0px 0.0px; font: 11.0px Times; color: #777777; min-height: 13.0px}
+    p.p105 {margin: 0.1px 0.0px 0.0px 16.0px; font: 12.0px Times; color: #0064d0}
+    p.p106 {margin: 0.0px 0.0px 0.0px 16.0px; font: 12.0px Times; color: #ff0000}
+    p.p107 {margin: 0.0px 0.0px 0.0px 16.0px; font: 12.0px Times; color: #e70cd6}
+    p.p108 {margin: 8.2px 0.0px 0.0px 44.5px; font: 18.0px Times; color: #333333}
+    p.p109 {margin: 16.6px 0.0px 0.0px 44.5px; font: 18.0px Times; color: #333333}
+    p.p110 {margin: 15.7px 0.0px 0.0px 0.0px; font: 18.0px Times; color: #333333; min-height: 23.0px}
+    p.p111 {margin: 0.0px 0.0px 0.0px 27.2px; font: 18.0px Times; color: #333333}
+    p.p112 {margin: 16.6px 0.0px 0.0px 27.2px; font: 18.0px Times; color: #333333}
+    p.p113 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Times; color: #333333; min-height: 23.0px}
+    p.p114 {margin: 0.3px 0.0px 0.1px 0.0px; font: 18.0px Times; color: #333333; min-height: 23.0px}
+    p.p115 {margin: 0.0px 0.0px 0.0px 16.0px; font: 1.0px Times; min-height: 1.0px}
+    p.p116 {margin: 0.0px 0.0px 0.0px 0.0px; font: 1.0px Times; min-height: 1.0px}
+    p.p117 {margin: 3.0px 0.0px 0.0px 0.0px; font: 10.0px Times; min-height: 13.0px}
+    p.p118 {margin: 0.6px 0.0px 0.0px 0.0px; font: 10.0px Times; min-height: 13.0px}
+    p.p119 {margin: 5.8px 1.9px 0.0px 31.0px; font: 10.5px Times; color: #666666}
+    p.p120 {margin: 5.8px 0.0px 0.0px 31.0px; font: 10.5px Times; color: #666666}
+    p.p121 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.5px Times; color: #999999; min-height: 13.0px}
+    p.p122 {margin: 5.3px 0.0px 0.0px 27.2px; font: 18.0px Times; color: #333333}
+    p.p123 {margin: 5.5px 0.0px 0.0px 27.2px; font: 9.0px Times; color: #008fff}
+    p.p124 {margin: 0.2px 0.0px 0.0px 0.0px; font: 3.0px Times; min-height: 4.0px}
+    p.p125 {margin: 6.0px 0.0px 0.0px 27.2px; font: 9.0px Times; color: #777777}
+    p.p126 {margin: 3.9px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #333333}
+    p.p127 {margin: 1.9px 0.0px 0.0px 0.0px; font: 9.0px Times; color: #777777; min-height: 11.0px}
+    p.p128 {margin: 0.0px 0.0px 0.0px 27.2px; font: 13.5px 'Arial Black'; color: #333333}
+    p.p129 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.5px 'Arial Black'; color: #333333; min-height: 19.0px}
+    p.p130 {margin: 6.2px 0.0px 0.0px 0.0px; font: 13.5px 'Arial Black'; color: #333333; min-height: 19.0px}
+    p.p131 {margin: 0.0px 0.0px 0.0px 16.0px; font: 1.5px 'Arial Black'; min-height: 2.0px}
+    p.p132 {margin: 5.5px 0.0px 0.0px 27.2px; font: 9.0px Times; color: #777777}
+    p.p133 {margin: 0.2px 0.0px 0.0px 0.0px; font: 3.5px Times; min-height: 5.0px}
+    p.p134 {margin: 0.9px 0.0px 0.0px 0.0px; font: 3.5px Times; min-height: 5.0px}
+    p.p135 {margin: 0.0px 0.0px 0.0px 27.2px; font: 9.0px Times; color: #777777}
+    p.p136 {margin: 0.3px 0.0px 0.0px 0.0px; font: 3.5px Times; min-height: 5.0px}
+    span.s1 {font: 12.0px Helvetica}
+    span.s2 {letter-spacing: -0.5px}
+    span.s3 {letter-spacing: -2.1px}
+    span.s4 {letter-spacing: -0.1px}
+    span.s5 {font: 15.5px Arial}
+    span.s6 {font: 15.5px Arial; letter-spacing: -0.5px}
+    span.s7 {letter-spacing: -1.1px}
+    span.s8 {letter-spacing: -0.2px}
+    span.s9 {font: 10.5px 'Arial Black'}
+    span.s10 {font: 10.5px 'Arial Black'; letter-spacing: 0.2px}
+    span.s11 {font: 10.5px 'Arial Black'; letter-spacing: 0.4px}
+    span.s12 {letter-spacing: 0.6px}
+    span.s13 {letter-spacing: 0.9px}
+    span.s14 {font: 10.5px Times; letter-spacing: -0.1px}
+    span.s15 {font: 10.5px 'Arial Black'; letter-spacing: -0.2px}
+    span.s16 {font: 10.5px 'Arial Black'; letter-spacing: -0.5px}
+    span.s17 {font: 10.5px 'Arial Black'; letter-spacing: -0.1px}
+    span.s18 {font: 10.5px 'Times New Roman'; text-decoration: underline ; letter-spacing: 2.4px}
+    span.s19 {letter-spacing: 0.5px}
+    span.s20 {font: 10.5px Times; letter-spacing: -0.2px}
+    span.s21 {letter-spacing: -0.4px}
+    span.s22 {letter-spacing: -0.3px}
+    span.s23 {font: 12.0px Times; color: #000000}
+    span.s24 {font: 18.0px Times; letter-spacing: -0.2px}
+    span.s25 {font: 36.0px Times; letter-spacing: -0.2px}
+    span.s26 {font: 17.0px 'Times New Roman'; vertical-align: -8.5px; letter-spacing: 2.0px; color: #ffffff}
+    span.s27 {font: 17.0px Times; vertical-align: -8.5px; color: #ffffff}
+    span.s28 {font: 17.0px Times; vertical-align: -8.5px; letter-spacing: 2.0px; color: #ffffff}
+    span.s29 {letter-spacing: -1.5px}
+    span.s30 {letter-spacing: -1.4px}
+    span.s31 {letter-spacing: -0.6px}
+    span.s32 {letter-spacing: -0.8px}
+    span.s33 {letter-spacing: -0.9px}
+    span.s34 {letter-spacing: -1.2px}
+    span.s35 {letter-spacing: -0.7px}
+    span.s36 {letter-spacing: -1.0px}
+    span.s37 {font: 37.5px Times; letter-spacing: -0.2px}
+    span.s38 {font: 17.0px 'Times New Roman'; vertical-align: 1.5px; letter-spacing: 2.1px}
+    span.s39 {letter-spacing: 4.0px}
+    span.s40 {font: 17.0px 'Times New Roman'; letter-spacing: 2.1px}
+    span.s41 {letter-spacing: 2.0px}
+    span.s42 {color: #000000}
+    span.s43 {font: 30.0px Times; letter-spacing: -0.2px}
+    span.s44 {letter-spacing: -0.3px; color: #999999}
+    span.s45 {letter-spacing: -0.2px; color: #999999}
+    span.Apple-tab-span {white-space:pre}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p3"><span class="s2">Research</span><span class="s3"> </span><span class="s4">Proposal</span></p>
+<p class="p4"><span class="s5"><i>by</i></span><span class="s6"><i> </i></span>Faria<span class="s7"> </span><span class="s8">Akter</span></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p5"><span class="s8"></span><br></p>
+<p class="p6"><br></p>
+<p class="p7"><span class="s9">Submission</span><span class="s10"> </span><span class="s9">date:</span><span class="s11"> </span>29-Apr-2023<span class="s12"> </span>11:03AM<span class="s13"> </span><span class="s4">(UTC+0600)</span></p>
+<p class="p8">Submission<span class="s8"> </span>ID:<span class="s4"> </span><span class="s14">2078989654</span></p>
+<p class="p9"><span class="s15">File</span><span class="s16"> </span><span class="s15">name:</span><span class="s17"> </span><span class="s8">earch_Proposal</span><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s8">Branding_Sculpture_among_Bangladeshi_people.docx (95.13K)</span></p>
+<p class="p8">Word<span class="s19"> </span>count:<span class="s19"> </span><span class="s20">2303</span></p>
+<p class="p8"><span class="s4">Character</span><span class="s21"> </span><span class="s4">count:</span><span class="s2"> </span><span class="s20">12957</span></p>
+<p class="p10"><span class="s8"></span><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p12"><br></p>
+<p class="p13"><span class="s2">4</span></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p15"><span class="s2"></span><br></p>
+<p class="p16"><span class="s2">4</span></p>
+<p class="p17"><span class="s2"></span><br></p>
+<p class="p18"><br></p>
+<p class="p19"><br></p>
+<p class="p18"><br></p>
+<p class="p19"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p20"><br></p>
+<p class="p21"><span class="s8">13</span></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p22"><span class="s8"></span><br></p>
+<p class="p23"><span class="s2">8</span></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p24"><br></p>
+<p class="p21"><span class="s2">1</span><span class="Apple-tab-span">	</span><span class="s2">1</span></p>
+<p class="p25"><span class="s2"></span><br></p>
+<p class="p26"><span class="s8">12</span></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p27"><span class="s8"></span><br></p>
+<p class="p28"><span class="s2">1</span></p>
+<p class="p29"><span class="s2"></span><br></p>
+<p class="p30"><span class="s2">1</span></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p31"><span class="s2"></span><br></p>
+<p class="p32"><span class="s2">1</span></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p27"><span class="s2"></span><br></p>
+<p class="p33"><span class="s2">1</span></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p34"><span class="s2"></span><br></p>
+<p class="p35"><span class="s2">5</span></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p36"><br></p>
+<p class="p37"><span class="s2">3</span></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p31"><span class="s2"></span><br></p>
+<p class="p38"><span class="s2">3</span></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p39"><span class="s2"></span><br></p>
+<p class="p35"><span class="s2">2</span></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p40"><br></p>
+<p class="p41"><span class="s2">2</span></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p42"><span class="s2"></span><br></p>
+<p class="p43"><span class="s2">9</span></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p44"><br></p>
+<p class="p45"><span class="s8">14</span></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p14"><span class="s8"></span><br></p>
+<p class="p15"><span class="s8"></span><br></p>
+<p class="p46"><span class="s8">11</span></p>
+<p class="p25"><span class="s8"></span><br></p>
+<p class="p47"><span class="s8">10</span></p>
+<p class="p17"><span class="s8"></span><br></p>
+<p class="p18"><br></p>
+<p class="p19"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p11"><br></p>
+<p class="p48"><br></p>
+<p class="p49"><span class="s2">6</span></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p50"><span class="s2"></span><br></p>
+<p class="p51"><span class="s2">5</span></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p52"><span class="s2"></span><br></p>
+<p class="p53"><span class="s2">3</span></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p54"><span class="s2"></span><br></p>
+<p class="p49"><span class="s2">2</span></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p55"><span class="s2"></span><br></p>
+<p class="p56"><span class="s2">7</span></p>
+<p class="p14"><span class="s2"></span><br></p>
+<p class="p57"><span class="s8">18</span></p>
+<p class="p58"><span class="s8">18</span></p>
+<p class="p59"><br></p>
+<p class="p60"><span class="s22">ORIGINALITY</span><span class="s4"> REPORT</span></p>
+<p class="p61"><br></p>
+<p class="p62"><br></p>
+<p class="p62"><br></p>
+<p class="p63"><br></p>
+<p class="p64"><span class="s2">%</span></p>
+<p class="p65"><span class="s8">SIMILARITY</span><span class="s4"> </span><span class="s8">INDEX</span></p>
+<p class="p66"><span class="s23"><br>
+</span><span class="s8">11</span><span class="s24">%</span></p>
+<p class="p67"><span class="s22">INTERNET</span><span class="s2"> </span><span class="s4">SOURCES</span></p>
+<p class="p68"><span class="s23"><br>
+</span><span class="s25">8</span><span class="s8">%</span></p>
+<p class="p67"><span class="s4">PUBLICATIONS</span></p>
+<p class="p66"><span class="s23"><br>
+</span><span class="s8">12</span><span class="s24">%</span></p>
+<p class="p67"><span class="s8">STUDENT</span><span class="s2"> </span><span class="s4">PAPERS</span></p>
+<p class="p69"><span class="s4"></span><br></p>
+<p class="p70"><span class="s4"></span><br></p>
+<p class="p71"><br></p>
+<p class="p60"><span class="s22">PRIMARY</span><span class="s4"> SOURCES</span></p>
+<p class="p61"><br></p>
+<p class="p72"><span class="s26"><span class="Apple-converted-space"> </span></span><span class="s27">1</span><span class="s28"> </span><span class="s27"><span class="Apple-tab-span">	</span></span>Fernando<span class="s29"> </span>Rey<span class="s30"> </span>Castillo-Villar,<span class="s30"> </span>Ana<span class="s29"> </span>Josefina Villasante-Arellano.<span class="s29"> </span>"Applying<span class="s30"> </span>the <span class="s22">multisensory</span><span class="s31"> </span><span class="s22">sculpture</span><span class="s32"> </span><span class="s22">technique</span><span class="s32"> </span><span class="s22">to</span><span class="s33"> </span><span class="s22">explore </span>the<span class="s31"> </span>role<span class="s31"> </span>of<span class="s33"> </span>brand<span class="s32"> </span>usage<span class="s31"> </span>on<span class="s32"> </span>multisensory <span class="s8">brand</span><span class="s7"> </span><span class="s8">experiences",</span><span class="s33"> </span><span class="s8">Journal</span><span class="s7"> </span><span class="s8">of</span><span class="s34"> </span><span class="s8">Retailing</span><span class="s35"> </span><span class="s8">and </span>Consumer<span class="s36"> </span>Services,<span class="s33"> </span>2020</p>
+<p class="p73"><span class="s37">3</span><span class="s8">%</span></p>
+<p class="p74"><span class="s37">3</span><span class="s8">%</span></p>
+<p class="p75"><span class="s2">2</span></p>
+<p class="p75"><span class="s2">2</span></p>
+<p class="p76"><br></p>
+<p class="p77"><span class="s4">pure.hud.ac.uk</span></p>
+<p class="p78"><span class="s38"><span class="Apple-converted-space"> </span></span><span class="s2">2</span><span class="s39"><span class="Apple-converted-space"> </span></span></p>
+<p class="p79"><span class="s40"><span class="Apple-converted-space"> </span></span><span class="s2">2</span><span class="s39"><span class="Apple-converted-space"> </span></span></p>
+<p class="p75"><span class="s2">2</span></p>
+<p class="p75"><span class="s2">2</span></p>
+<p class="p80"><br></p>
+<p class="p81"><span class="s4">journal.scanigeria.com</span></p>
+<p class="p78"><span class="s38"><span class="Apple-converted-space"> </span></span><span class="s2">3</span><span class="s39"><span class="Apple-converted-space"> </span></span></p>
+<p class="p79"><span class="s40"><span class="Apple-converted-space"> </span></span><span class="s2">3</span><span class="s39"><span class="Apple-converted-space"> </span></span></p>
+<p class="p80"><br></p>
+<p class="p82"><br></p>
+<p class="p83"><span class="s37">2</span><span class="s8">%</span></p>
+<p class="p74"><span class="s37">2</span><span class="s8">%</span></p>
+<p class="p84"><span class="s8">Student </span><span class="s4">Paper</span></p>
+<p class="p76"><br></p>
+<p class="p85"><br></p>
+<p class="p86"><span class="s37">2</span><span class="s8">%</span></p>
+<p class="p74"><span class="s37">2</span><span class="s8">%</span></p>
+<p class="p84"><span class="s8">Student </span><span class="s4">Paper</span></p>
+<p class="p76"><br></p>
+<p class="p85"><br></p>
+<p class="p87"><span class="s37">1</span><span class="s8">%</span></p>
+<p class="p74"><span class="s37">1</span><span class="s8">%</span></p>
+<p class="p84"><span class="s8">Student </span><span class="s4">Paper</span></p>
+<p class="p76"><br></p>
+<p class="p88"><br></p>
+<p class="p89"><br></p>
+<p class="p90"><span class="s40"><span class="Apple-converted-space"> </span></span><span class="s2">7</span><span class="s39"><span class="Apple-converted-space"> </span></span></p>
+<p class="p91"><span class="s39"></span><br></p>
+<p class="p92"><span class="s39"></span><br></p>
+<p class="p90"><span class="s40"><span class="Apple-converted-space"> </span></span><span class="s2">8</span><span class="s39"><span class="Apple-converted-space"> </span></span></p>
+<p class="p91"><span class="s39"></span><br></p>
+<p class="p92"><span class="s39"></span><br></p>
+<p class="p90"><span class="s40"><span class="Apple-converted-space"> </span></span><span class="s2">9</span><span class="s39"><span class="Apple-converted-space"> </span></span></p>
+<p class="p91"><span class="s39"></span><br></p>
+<p class="p92"><span class="s39"></span><br></p>
+<p class="p90"><span class="s8">10</span><span class="s41"><span class="Apple-converted-space"> </span></span></p>
+<p class="p91"><span class="s41"></span><br></p>
+<p class="p93"><span class="s41"></span><br></p>
+<p class="p94"><span class="s8">11</span><span class="s41"><span class="Apple-converted-space"> </span></span></p>
+<p class="p91"><span class="s41"></span><br></p>
+<p class="p91"><span class="s41"></span><br></p>
+<p class="p95"><span class="s41"></span><br></p>
+<p class="p90"><span class="s8">12</span><span class="s41"><span class="Apple-converted-space"> </span></span></p>
+<p class="p91"><span class="s41"></span><br></p>
+<p class="p92"><span class="s41"></span><br></p>
+<p class="p90"><span class="s8">13</span><span class="s41"><span class="Apple-converted-space"> </span></span></p>
+<p class="p91"><span class="s41"></span><br></p>
+<p class="p92"><span class="s41"></span><br></p>
+<p class="p90"><span class="s8">14</span><span class="s41"><span class="Apple-converted-space"> </span></span></p>
+<p class="p96"><span class="s42"><br>
+</span><span class="s4">Submitted</span><span class="s7"> </span><span class="s4">to</span><span class="s36"> </span><span class="s4">TAFE</span><span class="s32"> </span><span class="s4">NSW</span><span class="s7"> </span><span class="s4">Higher</span><span class="s7"> </span><span class="s4">Education</span></p>
+<p class="p97"><span class="s8">Student </span><span class="s4">Paper</span></p>
+<p class="p98"><span class="s4"></span><br></p>
+<p class="p99"><span class="s4">scholar.google.com</span></p>
+<p class="p97"><span class="s8">Internet </span><span class="s4">Source</span></p>
+<p class="p98"><span class="s4"></span><br></p>
+<p class="p100"><span class="s4">network.bepress.com</span></p>
+<p class="p97"><span class="s8">Internet </span><span class="s4">Source</span></p>
+<p class="p98"><span class="s4"></span><br></p>
+<p class="p101"><span class="s8">Submitted</span><span class="s36"> </span><span class="s8">to</span><span class="s32"> </span><span class="s8">University</span><span class="s2"> </span><span class="s8">of</span><span class="s7"> </span><span class="s8">Johannsburg</span></p>
+<p class="p97"><span class="s8">Student </span><span class="s4">Paper</span></p>
+<p class="p98"><span class="s4"></span><br></p>
+<p class="p102"><span class="s4">Submitted</span><span class="s34"> </span><span class="s4">to</span><span class="s7"> </span><span class="s4">BPP</span><span class="s7"> </span><span class="s4">College</span><span class="s7"> </span><span class="s4">of</span><span class="s30"> </span><span class="s4">Professional </span>Studies Limited</p>
+<p class="p103"><span class="s8">Student </span><span class="s4">Paper</span></p>
+<p class="p104"><span class="s4"></span><br></p>
+<p class="p105"><span class="s4">www.researchgate.net</span></p>
+<p class="p97"><span class="s8">Internet </span><span class="s4">Source</span></p>
+<p class="p98"><span class="s4"></span><br></p>
+<p class="p106"><span class="s4">www.bartleby.com</span></p>
+<p class="p97"><span class="s8">Internet </span><span class="s4">Source</span></p>
+<p class="p98"><span class="s4"></span><br></p>
+<p class="p107"><span class="s4">www.coursehero.com</span></p>
+<p class="p97"><span class="s8">Internet </span><span class="s4">Source</span></p>
+<p class="p108"><span class="s23"><br>
+</span><span class="s37">1</span><span class="s8">%</span></p>
+<p class="p109"><span class="s37">1</span><span class="s8">%</span></p>
+<p class="p109"><span class="s37">1</span><span class="s8">%</span></p>
+<p class="p109"><span class="s37">1</span><span class="s8">%</span></p>
+<p class="p109"><span class="s37">1</span><span class="s8">%</span></p>
+<p class="p110"><span class="s8"></span><br></p>
+<p class="p111"><span class="s43">&lt;</span><span class="s37">1</span><span class="s8">%</span></p>
+<p class="p112"><span class="s43">&lt;</span><span class="s37">1</span><span class="s8">%</span></p>
+<p class="p112"><span class="s43">&lt;</span><span class="s37">1</span><span class="s8">%</span></p>
+<p class="p113"><span class="s8"></span><br></p>
+<p class="p114"><span class="s8"></span><br></p>
+<p class="p115"><br></p>
+<p class="p116"><br></p>
+<p class="p116"><br></p>
+<p class="p116"><br></p>
+<p class="p116"><br></p>
+<p class="p116"><br></p>
+<p class="p117"><br></p>
+<p class="p118"><br></p>
+<p class="p19"><br></p>
+<p class="p119">Exclude quotes<span class="Apple-tab-span">	</span><span class="s44">Off </span><span class="s4">Exclude</span><span class="s31"> </span><span class="s4">bibliography</span><span class="Apple-tab-span">	</span><span class="s44">Off</span></p>
+<p class="p120"><span class="s23"><br>
+</span><span class="s4">Exclude</span><span class="s31"> </span><span class="s4">matches</span><span class="Apple-tab-span">	</span><span class="s45">Off</span></p>
+<p class="p121"><span class="s8"></span><br></p>
+<p class="p122"><span class="s2">Research</span><span class="s32"> </span><span class="s4">Proposal</span></p>
+<p class="p59"><br></p>
+<p class="p123"><span class="s8">GRADEMARK </span><span class="s4">REPORT</span></p>
+<p class="p61"><br></p>
+<p class="p124"><br></p>
+<p class="p62"><br></p>
+<p class="p125"><span class="s22">FINAL</span><span class="s21"> </span><span class="s4">GRADE</span></p>
+<p class="p126"><span class="s8">/0</span></p>
+<p class="p125"><span class="s23"><br>
+</span><span class="s4">GENERAL</span><span class="s8"> </span><span class="s4">COMMENTS</span></p>
+<p class="p127"><span class="s4"></span><br></p>
+<p class="p128"><span class="s4">Instructor</span></p>
+<p class="p129"><span class="s4"></span><br></p>
+<p class="p129"><span class="s4"></span><br></p>
+<p class="p130"><span class="s4"></span><br></p>
+<p class="p131"><br></p>
+<p class="p132">PAGE<span class="s8"> </span><span class="s2">1</span></p>
+<p class="p133"><br></p>
+<p class="p134"><br></p>
+<p class="p135">PAGE<span class="s8"> </span><span class="s2">2</span></p>
+<p class="p136"><br></p>
+<p class="p134"><br></p>
+<p class="p135">PAGE<span class="s8"> </span><span class="s2">3</span></p>
+<p class="p136"><br></p>
+<p class="p134"><br></p>
+<p class="p135">PAGE<span class="s8"> </span><span class="s2">4</span></p>
+<p class="p136"><br></p>
+<p class="p134"><br></p>
+<p class="p135">PAGE<span class="s8"> </span><span class="s2">5</span></p>
+<p class="p136"><br></p>
+<p class="p134"><br></p>
+<p class="p135">PAGE<span class="s8"> </span><span class="s2">6</span></p>
+<p class="p136"><br></p>
+<p class="p134"><br></p>
+<p class="p135">PAGE<span class="s8"> </span><span class="s2">7</span></p>
+<p class="p136"><br></p>
+<p class="p134"><br></p>
+<p class="p135">PAGE<span class="s8"> </span><span class="s2">8</span></p>
+<p class="p136"><br></p>
+<p class="p134"><br></p>
+<p class="p135">PAGE<span class="s8"> </span><span class="s2">9</span></p>
+<p class="p136"><br></p>
+<p class="p134"><br></p>
+<p class="p135">PAGE<span class="s8"> 10</span></p>
+<p class="p136"><br></p>
+</body>
+</html>
