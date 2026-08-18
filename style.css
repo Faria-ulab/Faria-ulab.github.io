@@ -106,9 +106,9 @@ a {
 }
 
 .section-header-compact {
-    margin-bottom: var(--spacing-md);
-    padding-bottom: 1rem;
-    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: left;
 }
 
 .section-title {
@@ -514,10 +514,10 @@ a {
 }
 
 .page-title-small {
-    font-size: clamp(2rem, 4vw, 4rem);
+    font-size: clamp(2rem, 4vw, 3rem);
     line-height: 1.1;
     color: var(--color-accent);
-    text-align: center;
+    text-align: left;
 }
 /* Grid Layout for Academic Page */
 .academic-grid {
@@ -781,12 +781,22 @@ a {
     transform: translateY(-3px);
     box-shadow: 0 8px 25px rgba(61, 12, 12, 0.2);
 }
-/* Academic Intro Compact */
-.academic-intro.compact {
-    max-width: 800px;
+.academic-header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0;
     margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/* Academic Intro Compact */
+.academic-intro.compact {
+    margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
