@@ -311,21 +311,9 @@ a {
     width: 100%;
 }
 
-/* Side Panel Overlay */
+/* Side Panel Overlay Disabled */
 .panel-overlay {
-    position: fixed;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background-color: rgba(252, 249, 249, 0.8);
-    backdrop-filter: blur(8px);
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.5s ease, visibility 0.5s ease;
-    z-index: 100;
-}
-
-.panel-overlay.active {
-    opacity: 1;
-    visibility: visible;
+    display: none;
 }
 
 /* Side Panel */

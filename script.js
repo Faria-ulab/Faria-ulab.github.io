@@ -247,15 +247,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Show panel
-        overlay.classList.add('active');
         panel.classList.add('active');
-        document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        // document.body.style.overflow = 'hidden'; // Removed so background remains scrollable
     }
 
     function closePanel() {
-        overlay.classList.remove('active');
         panel.classList.remove('active');
-        document.body.style.overflow = '';
+        // document.body.style.overflow = '';
     }
 
     // Event Listeners
@@ -267,7 +265,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     closeBtn.addEventListener('click', closePanel);
-    overlay.addEventListener('click', closePanel);
+    
+    document.addEventListener('click', (e) => {
+        if (panel.classList.contains('active')) {
+            const isClickInsidePanel = panel.contains(e.target);
+            const isClickOnGridItem = e.target.closest('.project-item');
+            
+            if (!isClickInsidePanel && !isClickOnGridItem) {
+                closePanel();
+            }
+        }
+    });
 
     // Escape key to close
     document.addEventListener('keydown', (e) => {
