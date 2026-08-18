@@ -82,13 +82,16 @@ a {
 }
 
 .nav a {
-    opacity: 0.6;
-    transition: opacity 0.3s ease, color 0.3s ease;
+    color: var(--color-accent);
+    font-weight: 600;
+    font-size: 0.95rem; /* Slightly larger for legibility */
+    opacity: 0.85;
+    transition: all 0.3s ease;
 }
 
 .nav a:hover, .nav a.active {
     opacity: 1;
-    color: var(--color-accent);
+    color: var(--color-text); /* Darken slightly on hover/active for contrast */
 }
 
 /* Common Section Styles */
