@@ -9,7 +9,7 @@ const projectData = {
         description: 'A group research proposal investigating public perception of sculpture as a viable art form and career path in Bangladesh, developed for the Communication Research course. The proposal opens by identifying the core problem: sculpture remains culturally undervalued and overlooked next to conventional "respectable" professions like medicine or engineering, despite genuine artistic and economic potential behind it. Built around five clearly defined research objectives — ranging from understanding public attitudes toward sculpture, to identifying strategies that could attract more people into the field, to exploring its potential to generate foreign income for Bangladesh — the proposal lays out a full qualitative research design. This includes a structured literature review establishing the existing gap in research on this topic, a data-collection strategy combining a single focus group discussion with systematic random sampling of one in every ten residents in the Bandarban area, and a complete project timeframe and budget for carrying out the fieldwork.',
         justification: 'This project demonstrates the ability to design a complete, methodologically sound qualitative research proposal as part of a team, starting from an observed social gap and working through to a fully specified, executable research plan. It required defining a clear, narrow set of research objectives rather than an open-ended question, conducting a literature review to justify why the research was needed, and choosing sampling and data-collection methods appropriate to a niche, under-studied topic. It also required practical planning skills — setting a feasible timeframe and realistic budget for actual fieldwork — that go beyond theoretical coursework into applied research management. This early academic research training directly underlies the more advanced, rigorous qualitative research design Faria now applies in her master\'s thesis.',
         learnings: 'Learned to build a full qualitative research proposal from the ground up: framing a research problem, conducting a structured literature review, and designing an appropriate sampling and data-collection strategy (focus group discussion, systematic random sampling). Developed early skills in group research planning, budgeting for fieldwork, and setting a realistic project timeframe — foundational to the more advanced qualitative research design used in the master\'s thesis.',
-        media: [{ type: 'document', src: 'assets/docs/Research Proposal (23) (1).html' }]
+        media: [{ type: 'document', src: 'assets/docs/Research Proposal (23) (1).pdf' }]
     },
     'mask-making': {
         title: 'From Chains to Change — Group Mask Installation',
@@ -23,7 +23,7 @@ const projectData = {
         learnings: 'Learned to collaboratively translate abstract social theory into a physical, symbol-driven visual narrative; developed skills in concept pitching, shared creative decision-making, and using colour/material choices deliberately to carry meaning. Gained practical experience in collecting and interpreting structured audience feedback to test whether an intended message actually reaches viewers, and in critically reflecting on gaps between creative intent and audience interpretation.',
         media: [
             { type: 'image', src: 'assets/projects/Section 1 _ Group 11 - _From Chains to Change_ by [Faria Akter (223012075) & Md Tariquzzaman Sikder (223012037)].jpg' },
-            { type: 'document', src: 'assets/docs/Reflection Paper_ From Chains to Change.html' }
+            { type: 'document', src: 'assets/docs/Reflection Paper_ From Chains to Change.pdf' }
         ]
     },
     'blog-writing': {
@@ -36,7 +36,7 @@ const projectData = {
         description: 'A short comparative feature profiling two young footballers on divergent paths after representing Bangladesh: Apu Roy, a 2018 Bangabandhu Gold Cup champion who left football to become a barber due to financial hardship, and Shaon, who continued in the sport with the backing of a footballing family. Built on direct interviews, the piece interrogates structural inequality and the lack of institutional support for talent in Bangladeshi football.',
         justification: 'Demonstrates the ability to conduct original interview-based reporting and produce a publication-ready feature using digital writing and communication technology tools, building a comparative human-interest narrative that surfaces a structural critique of inequality in Bangladeshi sport through individual stories — early evidence of the narrative feature-writing approach later developed at TBS Panorama.',
         learnings: 'Learned to conduct and structure interview-based reporting, to build a narrative around contrast between two real subjects rather than a single profile, and to let individual stories carry a broader structural argument about inequality and opportunity. Strengthened skills in producing publication-ready feature content using digital writing and communication technology tools.',
-        media: [{ type: 'document', src: 'assets/docs/The Dual Lives Of Bangladeshi Young Footballer.html' }]
+        media: [{ type: 'document', src: 'assets/docs/The Dual Lives Of Bangladeshi Young Footballer.pdf' }]
     },
     'advanced-english': {
         title: 'Cinecast Podcast Script',
@@ -48,7 +48,7 @@ const projectData = {
         description: 'Wrote an engaging and in-depth podcast script exploring the lack of science fiction movies in the Bangladeshi film industry.',
         justification: 'The project involved structuring an interview format, generating compelling dialogue between a host and a guest, and researching the current state of local cinema and literature.',
         learnings: 'I improved my conversational English writing skills, learning how to write scripts that sound natural when spoken while simultaneously conveying critical analysis.',
-        media: [{ type: 'document', src: 'assets/docs/Advance English.html' }]
+        media: [{ type: 'document', src: 'assets/docs/Advance English.pdf' }]
     },
     'advanced-bangla': {
         title: 'Portfolio Assignment',
@@ -60,7 +60,7 @@ const projectData = {
         description: 'Wrote a creative Bengali narrative depicting rural life, childhood memories, and cultural nuances.',
         justification: 'This coursework required advanced proficiency in Bengali literature and narrative structuring, allowing me to express complex emotions and cultural settings vividly in my native language.',
         learnings: 'I improved my descriptive writing skills in Bengali, learning how to use regional dialects and sensory details to build an immersive story.',
-        media: [{ type: 'document', src: 'assets/docs/Faria Akter (223012075) - Portfolio Assignment.html' }]
+        media: [{ type: 'document', src: 'assets/docs/Faria Akter (223012075) - Portfolio Assignment.pdf' }]
     },
     'trashion-show': {
         title: 'Individual Report — Upcycled "Jungle" Trashion Garment',
@@ -74,7 +74,7 @@ const projectData = {
         learnings: 'Learned to design and construct a wearable creative artifact from a theoretical/environmental prompt, manage a small production team under time pressure, and improvise with limited resources (upcycled materials). Developed skills in running structured audience-feedback interviews and using that feedback to critically evaluate whether a creative work communicated its intended message.',
         media: [
             { type: 'image', src: ['assets/projects/Trashion.jpg', 'assets/projects/Trashion 3.jpg', 'assets/projects/Trashion 4.jpg'] },
-            { type: 'document', src: 'assets/docs/Faria Akter (223012075) - Individual Report.html' }
+            { type: 'document', src: 'assets/docs/Faria Akter (223012075) - Individual Report.pdf' }
         ]
     },
     'video-art': {
@@ -99,7 +99,7 @@ const projectData = {
         description: 'A full communication-for-development strategy addressing childhood malnutrition in rural Bangladesh, built on a problem-tree analysis (poverty, maternal education, sanitation, healthcare access, cultural beliefs) and structured using the Logical Framework (Log Frame) approach. The plan defines goals, objectives, target behaviours (exclusive breastfeeding, hygiene, dietary diversity), multi-channel communication activities (health worker visits, radio, SMS, mother support groups), and monitoring indicators.',
         justification: 'Demonstrates the ability to design a full evidence-based, multi-stakeholder development communication strategy from root-cause diagnosis to measurable behaviour-change outcomes — reflecting strong grounding in C4D frameworks (Log Frame Analysis, BCC) that inform Faria\'s broader interest in health communication and stigma-reduction strategy, directly relevant to her master\'s research on health information-seeking behaviour.',
         learnings: 'Learned to build a communication strategy from root-cause analysis (problem tree) through to a full Log Frame structure with measurable indicators, verification methods, and risk assumptions. Developed skills in aligning multiple communication channels (interpersonal, mass media, digital) around a single behaviour-change goal, and in setting realistic, quantifiable success targets for a development intervention.',
-        media: [{ type: 'document', src: 'assets/docs/C4D_planning_Assignment[1][1].html' }]
+        media: [{ type: 'document', src: 'assets/docs/C4D_planning_Assignment[1][1].pdf' }]
     },
     'participatory-research': {
         title: 'Water Crisis and Health Problems in a Marma Community of Bandarban',
@@ -111,7 +111,7 @@ const projectData = {
         description: 'A field-based participatory research study conducted with the Marma Indigenous community of Amtoli Marma Para, Bandarban, examining how residents cope with seasonal water shortages and waterborne illness. Using Farmers Field School sessions, transect walks, and resource mapping with community members, the report documents reliance on unsafe hand-dug "Kua" pits, associated health risks (diarrhoea, skin infections, typhoid), and structural barriers (failed government infrastructure projects, deforestation, geographic isolation) — concluding with a co-developed short- and long-term action plan.',
         justification: 'Demonstrates original participatory fieldwork with an Indigenous community, including trust-building with local leadership, oral informed consent in the Marma language, and direct sourcing from residents and officials. It reflects the field-reporting rigor, ethical sensitivity, and structural analysis Faria brings to marginalised-community reporting, and directly parallels the qualitative, community-centred research design used in her master\'s thesis methodology.',
         learnings: 'Learned to design and conduct participatory fieldwork with an Indigenous community, including culturally respectful entry, trust-building with local leadership, and obtaining informed consent in a language other than English or Bangla. Developed practical skills in participatory methods (Farmers Field School, transect walks, resource mapping) and in co-producing an action plan with community members rather than imposing external solutions.',
-        media: [{ type: 'document', src: 'assets/docs/Faria Akter_223012075_PR-1_Spring 2026 (1).html' }]
+        media: [{ type: 'document', src: 'assets/docs/Faria Akter_223012075_PR-1_Spring 2026 (1).pdf' }]
     },
     'ict-development': {
         title: '"Hasina and Friends": A Case Study of ICT4D Project Failure in Bangladesh',
@@ -123,7 +123,7 @@ const projectData = {
         description: 'A critical case-study analysis of "Hasina and Friends," a government-run interactive learning platform for children (ages 6–16) built under the IDEA project and shut down within two years despite an estimated BDT 18–20 crore budget. The report investigates the platform\'s design, procurement, and launch; identifies technical, organisational, political, and sustainability failures; and closes with actionable recommendations — user-centred design, independent monitoring, capacity building, and long-term maintenance planning — for future state-led ICT4D initiatives.',
         justification: 'Demonstrates the ability to conduct an evidence-based institutional failure analysis, synthesising government records, news investigations, and academic ICT4D theory (Heeks, 2002; 2017) into a structured accountability critique. This kind of investigative, document-based analysis of public-fund mismanagement is directly aligned with the accountability journalism Faria practices professionally, and shows early command of development-communication theory applied to a real national case.',
         learnings: 'Learned to build an evidence-based institutional case study using government records, news investigations, and academic ICT4D theory, and to structure a failure analysis across technical, organisational, political, and sustainability dimensions. Developed skills in translating an accountability critique into concrete, actionable policy recommendations — directly relevant to investigative and accountability journalism.',
-        media: [{ type: 'document', src: 'assets/docs/Faria Akter (223012075)_Final Project_MSJ3261_Sec2_ICT4D_Fall25.html' }]
+        media: [{ type: 'document', src: 'assets/docs/Faria Akter (223012075)_Final Project_MSJ3261_Sec2_ICT4D_Fall25.pdf' }]
     },
     'health-comm': {
         title: 'Health Communication Plan — Diaspora Student Wellbeing Documentary',
@@ -147,7 +147,7 @@ const projectData = {
         description: 'A comprehensive Emergency Communication Plan addressing the preparedness, response, and early-recovery phases of a dengue outbreak in Bangladesh. The plan applies Risk Communication and Community Engagement (RCCE) principles and includes a risk/vulnerability analysis, audience segmentation (mothers, rural decision-makers, youth, frontline health workers), a colour-coded (Green/Yellow/Red) core messaging framework, a "Truth Sandwich" strategy for rumour correction, sample SMS/radio/poster content in Bangla, a multi-channel dissemination strategy, and a monitoring, feedback, and ethics framework grounded in WHO, UNICEF, and DGHS guidance.',
         justification: 'This project demonstrates the ability to translate technical public-health guidance into clear, audience-specific, life-saving messaging — a core skill for health and development communication. It shows command of RCCE theory, message framing for low-literacy and high-risk audiences, and rumour-management strategy, directly building the theoretical and practical foundation (framing, source credibility, audience trust) that now underpins the master\'s thesis on stigma, trust, and health information-seeking behaviour.',
         learnings: 'Learned to apply RCCE principles to design a full-cycle emergency communication plan, including audience-specific message framing, a colour-coded triage messaging system, and a structured rumour-correction technique ("Truth Sandwich"). Developed skills in writing life-saving content in Bangla for low-literacy audiences and in coordinating multi-channel dissemination across SMS, radio, and community volunteers.',
-        media: [{ type: 'document', src: 'assets/docs/Faria Akter- 223012075-Emergency Comm. Sec1 (2) (1).html' }]
+        media: [{ type: 'document', src: 'assets/docs/Faria Akter- 223012075-Emergency Comm. Sec1 (2) (1).pdf' }]
     },
     'edutainment': {
         title: 'Rongin Bangladesh — Edutainment TV Program Concept',
@@ -159,7 +159,7 @@ const projectData = {
         description: 'A full concept design for "Rongin Bangladesh" ("Colorful Bangladesh"), a proposed TV edutainment program addressing the marginalisation and cultural erasure of Bangladesh\'s ethnic minority communities (Garo, Chakma, Marma, Mro, Hajong, Santal). The proposal details a four-segment episode structure (storytelling, lifestyle, community voices, interactive quiz), a full sample episode on the Garo community, target audiences, guest structure, and the entertainment-education balance intended to build national cultural inclusion.',
         justification: 'Shows the ability to design an original mass-media format that operationalises development-communication goals — cultural preservation, stereotype reduction, national harmony — into a concrete, producible program structure. This demonstrates format and audience-design thinking that complements Faria\'s print feature work with a broadcast/edutainment lens.',
         learnings: 'Learned to design a full broadcast format from a development-communication goal, including episode structure, audience segmentation, and a worked sample episode. Developed skills in balancing entertainment value (dramatisation, music, interactive quizzes) with educational intent, and in designing content meant to reduce stereotyping and build national cultural inclusion.',
-        media: [{ type: 'document', src: 'assets/docs/Rongin Bangladesh.html' }]
+        media: [{ type: 'document', src: 'assets/docs/Rongin Bangladesh.pdf' }]
     },
     'advertising': {
         title: 'Initial Script — MACES Study Abroad Campaign',
@@ -171,7 +171,7 @@ const projectData = {
         description: 'A five-scene narrative advertisement script following three young women through scenes of price inflation, disengagement from political trends, and general disillusionment with the state of the country, before converging on a "study abroad" resolution promoted by an educational consultancy (MACES). Each scene is paired with an explicit social message — economic stagnation, political apathy, and loss of national faith among Bangladeshi youth.',
         justification: 'Demonstrates the ability to translate socio-political commentary into a commercially viable, emotionally engaging visual narrative — showing range beyond journalistic writing into scripted commercial storytelling, while still grounding the work in genuine social observation about youth disillusionment and emigration aspiration in Bangladesh.',
         learnings: 'Learned to write a scene-by-scene commercial script that layers social commentary underneath an entertaining, character-driven narrative, and to plan visual/comedic beats (dramatic transitions, physical comedy) that keep a brand message engaging rather than didactic. Developed skills in balancing client messaging goals with authentic social observation.',
-        media: [{ type: 'document', src: 'assets/docs/Initial Script _ Advertising.html' }]
+        media: [{ type: 'document', src: 'assets/docs/Initial Script _ Advertising.pdf' }]
     }
 };
 
