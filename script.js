@@ -1,4 +1,60 @@
 const projectData = {
+    'participatory-research': {
+        title: 'Research Proposal',
+        company: 'Academic Project',
+        course: 'Participatory Research Method',
+        projectName: 'Research Proposal',
+        projectTitle: 'Independent Research',
+        projectDate: '2025',
+        description: 'Developed a comprehensive research proposal focusing on academic and social communication strategies.',
+        justification: 'This coursework required identifying a research problem, structuring a methodology, and proposing actionable insights. It demonstrated my ability to conduct systematic research and design studies that address real-world communication issues.',
+        learnings: 'I learned how to formulate strong research questions, design appropriate methodologies, and structure a formal academic proposal.'
+    },
+    'ict-development': {
+        title: 'Final Project',
+        company: 'Academic Project',
+        course: 'ICT for Development',
+        projectName: 'Final Project MSJ3261',
+        projectTitle: 'Information and Communication Technology for Development',
+        projectDate: 'Fall 2025',
+        description: 'Completed a final project exploring the role of Information and Communication Technologies in driving social and economic development.',
+        justification: 'The project involved analyzing how digital tools and platforms can be leveraged to empower marginalized communities and improve public services. It required a deep understanding of both technological capabilities and socio-economic challenges.',
+        learnings: 'I gained insights into the digital divide and learned strategies for implementing inclusive technological solutions in developing regions.'
+    },
+    'emergency-comm': {
+        title: 'Emergency Communication',
+        company: 'Academic Project',
+        course: 'Emergency Communication',
+        projectName: 'Risk Management Report',
+        projectTitle: 'Crisis and Emergency Communication',
+        projectDate: '2025',
+        description: 'Authored a detailed report on emergency communication strategies and risk management protocols.',
+        justification: 'This assignment tested my ability to design communication plans that operate under high-pressure, time-sensitive crisis scenarios. It required understanding audience psychology during emergencies and crafting clear, actionable messages.',
+        learnings: 'I developed skills in crisis response planning, rapid information dissemination, and stakeholder management during emergencies.'
+    },
+    'entertainment-edu': {
+        title: 'Edutainment Program Design',
+        company: 'Academic Project',
+        course: 'Entertainment Education',
+        projectName: 'Rongin Bangladesh',
+        projectTitle: 'Colorful Bangladesh TV Show',
+        projectDate: '2025',
+        description: 'Designed an edutainment TV show titled "Rongin Bangladesh" aimed at promoting cultural awareness and national harmony among diverse ethnic communities in Bangladesh.',
+        justification: 'The project required balancing educational content with engaging entertainment formats. I designed episode structures, storylines, and interactive segments to tackle issues like stereotyping and cultural preservation.',
+        learnings: 'I learned how to use visual storytelling, dramatization, and media formats to effectively communicate social issues to a mass audience.'
+    },
+    'environmental-comm': {
+        title: 'Trashion Show',
+        company: 'Academic Project',
+        course: 'Environmental Communication',
+        projectName: 'TrashOff Show',
+        projectTitle: 'Sustainable Fashion Initiative',
+        projectDate: '2025',
+        description: 'Organized and documented a "Trashion Show" to raise awareness about environmental sustainability through upcycled fashion.',
+        justification: 'This project combined event management with environmental advocacy. It served as a practical application of environmental communication theories, using visual and performative arts to convey messages about waste reduction and recycling.',
+        learnings: 'I improved my skills in event coordination and learned how to translate abstract environmental concepts into tangible, engaging public events.',
+        media: { type: 'image', src: ['assets/projects/Trashion.jpg', 'assets/projects/Trashion 3.jpg', 'assets/projects/Trashion 4.jpg'] }
+    },
     'research-project': {
         title: 'Feature Writing',
         company: 'The Business Standard',
@@ -124,18 +180,33 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 if (data) {
-                    document.getElementById('panel-course').textContent = data.course;
-                    document.getElementById('panel-project-name').textContent = data.projectName;
-                    document.getElementById('panel-project-title-main').textContent = data.title;
-                    document.getElementById('panel-project-title').textContent = data.projectTitle;
-                    document.getElementById('panel-project-date').textContent = data.projectDate;
-                    document.getElementById('panel-description').textContent = data.description;
-                    document.getElementById('panel-justification').textContent = data.justification;
-                    document.getElementById('panel-learnings').textContent = data.learnings;
+                    document.getElementById('panel-course').textContent = data.course || '';
+                    document.getElementById('panel-project-name').textContent = data.projectName || '';
+                    document.getElementById('panel-project-title-main').textContent = data.title || '';
+                    document.getElementById('panel-project-title').textContent = data.projectTitle || '';
+                    document.getElementById('panel-project-date').textContent = data.projectDate || '';
+                    document.getElementById('panel-description').textContent = data.description || '';
+                    document.getElementById('panel-justification').textContent = data.justification || '';
+                    document.getElementById('panel-learnings').textContent = data.learnings || '';
                     
-                    const docViewer = document.getElementById('panel-document');
-                    if (docViewer) {
-                        docViewer.src = 'assets/project-doc.pdf'; // Keep the placeholder CV for now
+                    const mediaContainer = document.getElementById('panel-media-container');
+                    if (mediaContainer) {
+                        mediaContainer.innerHTML = '';
+                        if (data.media) {
+                            if (data.media.type === 'video') {
+                                mediaContainer.innerHTML = `<video controls width="100%" style="border-radius: 8px; margin-bottom: 1rem;"><source src="${data.media.src}" type="video/mp4"></video>`;
+                            } else if (data.media.type === 'image') {
+                                if (Array.isArray(data.media.src)) {
+                                    data.media.src.forEach(src => {
+                                        mediaContainer.innerHTML += `<img src="${src}" width="100%" style="margin-bottom:1rem; border-radius: 8px;">`;
+                                    });
+                                } else {
+                                    mediaContainer.innerHTML = `<img src="${data.media.src}" width="100%" style="margin-bottom:1rem; border-radius: 8px;">`;
+                                }
+                            } else if (data.media.type === 'pdf') {
+                                mediaContainer.innerHTML = `<div class="iframe-wrapper"><iframe src="${data.media.src}" title="Project Document" width="100%" height="100%" frameborder="0"></iframe></div>`;
+                            }
+                        }
                     }
 
                     openPanel();
