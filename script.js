@@ -73,6 +73,7 @@ const projectData = {
         justification: 'The project shows early competency in translating an environmental theme into a public-facing creative artifact, structuring audience feedback collection, and critically reflecting on both creative process and reception — foundational skills for narrative-driven, audience-centered communication work later expanded in professional feature writing.',
         learnings: 'Learned to design and construct a wearable creative artifact from a theoretical/environmental prompt, manage a small production team under time pressure, and improvise with limited resources (upcycled materials). Developed skills in running structured audience-feedback interviews and using that feedback to critically evaluate whether a creative work communicated its intended message.',
         media: [
+            { type: 'youtube', src: 'fkzN1_4GRcE' },
             { type: 'image', src: ['assets/projects/Trashion.jpg', 'assets/projects/Trashion 3.jpg', 'assets/projects/Trashion 4.jpg'] },
             { type: 'document', src: 'assets/docs/Faria Akter (223012075) - Individual Report.pdf' }
         ]
@@ -239,6 +240,17 @@ document.addEventListener('DOMContentLoaded', () => {
                     iframe.style.border = '1px solid var(--border)';
                     iframe.style.borderRadius = 'var(--radius)';
                     iframe.style.backgroundColor = 'white'; // for converted HTML docs
+                    pMediaContainer.appendChild(iframe);
+                } else if (mediaItem.type === 'youtube') {
+                    const iframe = document.createElement('iframe');
+                    iframe.src = `https://www.youtube.com/embed/${mediaItem.src}`;
+                    iframe.style.width = '100%';
+                    iframe.style.aspectRatio = '16 / 9';
+                    iframe.style.marginBottom = '1.5rem';
+                    iframe.style.border = 'none';
+                    iframe.style.borderRadius = 'var(--radius)';
+                    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+                    iframe.allowFullscreen = true;
                     pMediaContainer.appendChild(iframe);
                 }
             });
