@@ -1,14 +1,14 @@
 const projectData = {
     'participatory-research': {
-        title: 'Research Proposal',
+        title: 'Water Crisis and Health Problems in a Marma Community',
         company: 'Academic Project',
         course: 'Participatory Research Method',
-        projectName: 'Research Proposal',
-        projectTitle: 'Independent Research',
-        projectDate: '2025',
-        description: 'Developed a comprehensive research proposal focusing on academic and social communication strategies.',
-        justification: 'This coursework required identifying a research problem, structuring a methodology, and proposing actionable insights. It demonstrated my ability to conduct systematic research and design studies that address real-world communication issues.',
-        learnings: 'I learned how to formulate strong research questions, design appropriate methodologies, and structure a formal academic proposal.'
+        projectName: 'Participatory Research Report',
+        projectTitle: 'PR-1: Spring 2026',
+        projectDate: 'Spring 2026',
+        description: 'Conducted a participatory research study with the Marma Indigenous community in Amtoli Marma Para, Bandarban, to understand how community members deal with water shortages and water-related diseases during summer.',
+        justification: 'This study utilized participatory methods such as Farmers Field School (FFS), Transect Walk, and Resource Mapping to engage community members as active partners in sharing knowledge, analyzing problems, and finding solutions.',
+        learnings: 'I learned how to formulate strong research questions, design appropriate methodologies, and develop action plans combining short-term and long-term solutions together with community members.'
     },
     'ict-development': {
         title: 'Final Project',
@@ -27,7 +27,7 @@ const projectData = {
         course: 'Emergency Communication',
         projectName: 'Risk Management Report',
         projectTitle: 'Crisis and Emergency Communication',
-        projectDate: '2025',
+        projectDate: 'Fall 2025',
         description: 'Authored a detailed report on emergency communication strategies and risk management protocols.',
         justification: 'This assignment tested my ability to design communication plans that operate under high-pressure, time-sensitive crisis scenarios. It required understanding audience psychology during emergencies and crafting clear, actionable messages.',
         learnings: 'I developed skills in crisis response planning, rapid information dissemination, and stakeholder management during emergencies.'
@@ -43,72 +43,130 @@ const projectData = {
         justification: 'The project required balancing educational content with engaging entertainment formats. I designed episode structures, storylines, and interactive segments to tackle issues like stereotyping and cultural preservation.',
         learnings: 'I learned how to use visual storytelling, dramatization, and media formats to effectively communicate social issues to a mass audience.'
     },
-    'environmental-comm': {
-        title: 'Trashion Show',
+    'research-project': {
+        title: 'Research Proposal',
         company: 'Academic Project',
-        course: 'Environmental Communication',
+        course: 'Research Project',
+        projectName: 'Independent Research',
+        projectTitle: 'Academic Research Proposal',
+        projectDate: '2025',
+        description: 'Developed a comprehensive research proposal focusing on academic and social communication strategies.',
+        justification: 'This coursework required identifying a research problem, structuring a methodology, and proposing actionable insights. It demonstrated my ability to conduct systematic research and design studies that address real-world communication issues.',
+        learnings: 'Developing this project helped me have a clear idea of how to write a complete research proposal in a systematic and structured manner. Each research proposal is interrelated and I was taught so that it is necessary to plan well before undertaking any research.'
+    },
+    'audio-production': {
+        title: 'Audio Production',
+        company: 'Academic Project',
+        course: 'Audio Production',
+        projectName: 'Audio Clip Production',
+        projectTitle: 'WA0017 Audio Project',
+        projectDate: '2023',
+        description: 'Produced and edited an audio production piece, focusing on sound quality, narrative audio flow, and technical mixing.',
+        justification: 'This project was an exercise in practical audio storytelling. The goal was to manipulate audio to convey emotion and message clearly without relying on visuals.',
+        learnings: 'I learned advanced audio editing techniques, leveling, and how sound effects and voice can be combined to engage an audience.',
+        media: { type: 'video', src: 'assets/projects/AUD-20230826-WA0017.mp3' }
+    },
+    'video-production': {
+        title: 'Video Production',
+        company: 'Academic Project',
+        course: 'Video Production',
+        projectName: 'Short Films and Video Art',
+        projectTitle: 'Table of Strain & Advisor Council',
+        projectDate: '2025',
+        description: 'Created multiple video projects including "Table of Strain" and a mock session of an Advisor Council.',
+        justification: 'These video projects required full-cycle video production including conceptualization, scripting, directing, shooting, and post-production editing.',
+        learnings: 'I developed technical skills in video editing, framing, lighting, and narrative pacing.',
+        media: { type: 'video', src: 'assets/projects/Table of Strain - Faria Akter.mp4' }
+    },
+    'advanced-english': {
+        title: 'Cinecast Podcast Script',
+        company: 'Academic Project',
+        course: 'Advanced English Writing Skills',
+        projectName: 'Podcast Script Writing',
+        projectTitle: 'Why doesnt Bangladesh film industry make science fiction movies?',
+        projectDate: '2025',
+        description: 'Wrote an engaging and in-depth podcast script exploring the lack of science fiction movies in the Bangladeshi film industry.',
+        justification: 'The project involved structuring an interview format, generating compelling dialogue between a host and a guest, and researching the current state of local cinema and literature.',
+        learnings: 'I improved my conversational English writing skills, learning how to write scripts that sound natural when spoken while simultaneously conveying critical analysis.'
+    },
+    'convergence-comm-1': {
+        title: 'Sustainable Fashion Initiative',
+        company: 'Academic Project',
+        course: 'Convergence Communication I',
         projectName: 'TrashOff Show',
-        projectTitle: 'Sustainable Fashion Initiative',
+        projectTitle: 'Trashion Show',
         projectDate: '2025',
         description: 'Organized and documented a "Trashion Show" to raise awareness about environmental sustainability through upcycled fashion.',
-        justification: 'This project combined event management with environmental advocacy. It served as a practical application of environmental communication theories, using visual and performative arts to convey messages about waste reduction and recycling.',
+        justification: 'This project combined event management with environmental advocacy. It served as a practical application of communication theories, using visual and performative arts to convey messages about waste reduction and recycling.',
         learnings: 'I improved my skills in event coordination and learned how to translate abstract environmental concepts into tangible, engaging public events.',
         media: { type: 'image', src: ['assets/projects/Trashion.jpg', 'assets/projects/Trashion 3.jpg', 'assets/projects/Trashion 4.jpg'] }
     },
-    'research-project': {
-        title: 'Feature Writing',
-        company: 'The Business Standard',
-        course: 'Feature Writing & Reporting',
-        projectName: 'Newsroom Features',
-        projectTitle: 'Independent Cinema, Digital Matchmaking, Housing and University Cultural Events',
-        projectDate: 'Summer 2026',
-        description: 'Produced reported features and event, culture and lifestyle stories, handling research, interviews, writing, fact-checking and publication-ready copy. Covered subjects including independent cinema, digital matchmaking, housing and university cultural events.',
-        justification: 'This role required extensive on-the-ground reporting and interviewing skills. It involved pitching stories, conducting primary research, and writing long-form feature articles for a national daily newspaper. The experience solidified my ability to work under tight deadlines and produce engaging, human-centered narratives.',
-        learnings: 'Developing this project helped me have a clear idea of how to write a complete research proposal in a systematic and structured manner. Each research proposal is interrelated and I was taught so that it is necessary to plan well before undertaking any research. It took me a project to learn the entire process starting with how to pick a topic and how to formulate research questions and pick the appropriate methodology. At the same time, this project helped me think more deeply about the impact of social media on students’ daily lives. I understood how online communication can sometimes replace real-life interaction and how this change can influence behavior, relationships, and communication skills. It also made me more aware of how students balance between virtual and real-world socializing. In a practical perspective, I learned about different data collection methods such as surveys and interviews and how they help in gathering useful information. I also learned my critical thinking skills, preparation, and delivery of ideas in an academic manner. Generally, this project has developed my research; it has also provided a good foundation and ground on which I will proceed with future academic works more confidently and with more clarity.'
-    },
-    'position-paper': {
-        title: 'Research & Analysis',
-        company: 'Press Institute Bangladesh',
-        course: 'Communication Research',
-        projectName: 'Documentary Research',
-        projectTitle: 'Srabon Bidroho – July Uprising',
-        projectDate: 'Summer 2025',
-        description: 'Contributed historical research, content analysis and narrative development to the documentary “Srabon Bidroho – July Uprising,” with emphasis on archival verification and contextual accuracy.',
-        justification: 'This project involved deep-dive historical research and fact-checking. It required analyzing archival footage, verifying historical claims, and helping structure the narrative arc of a documentary film, showcasing my ability to handle complex historical data and translate it into a compelling visual medium.',
-        learnings: 'Through this project, I gained extensive experience in historical fact-checking and archival research. Working on a documentary taught me how to weave disparate historical facts into a cohesive, engaging narrative.'
-    },
-    'communication-campaign': {
-        title: 'Visual Storytelling',
-        company: 'The Daily Star — Slow Reads',
-        course: 'Digital Publishing',
-        projectName: 'In-Depth Stories',
-        projectTitle: 'Slow Reads Department Content Creation',
-        projectDate: '2026',
-        description: 'Produced in-depth stories and visual storytelling content for the Slow Reads department. Contributed to research, editing, digital publishing and newsroom-based storytelling.',
-        justification: 'Working with the Slow Reads team allowed me to focus on long-form, immersive storytelling. I learned how to integrate text with visual elements to create engaging digital narratives, understanding the nuances of digital publishing and audience engagement.',
-        learnings: 'This experience taught me the intricacies of digital publishing workflows. I learned to balance deep, slow-paced storytelling with the fast-paced demands of a modern newsroom.'
-    },
-    'emergency-communication': {
-        title: 'Event Coordination',
-        company: 'Trashion Show of ULAB',
-        course: 'Project Management',
-        projectName: 'University Fashion Show',
-        projectTitle: 'Trashion Show at Shilpakala Academy',
-        projectDate: '2024 - 2025',
-        description: 'Co-organised a university fashion show at Shilpakala Academy, coordinating logistics, teams and promotional activities.',
-        justification: 'This role was heavily focused on logistics, team management, and public relations. It involved coordinating with multiple stakeholders, managing event schedules, and handling promotional campaigns, demonstrating my ability to execute large-scale events successfully.',
-        learnings: 'I developed strong project management and crisis-resolution skills. Coordinating an event of this scale taught me the importance of clear communication, delegation, and adaptive planning.'
-    },
-    'multiple-content': {
-        title: 'Educational Innovation',
-        company: 'Symposium 2025',
-        course: 'Educational Technology',
-        projectName: 'Conference Presentation',
-        projectTitle: 'Kahoot as an Educational Engagement Tool',
+    'convergence-comm-2': {
+        title: 'Rational Choice Theory Art',
+        company: 'Academic Project',
+        course: 'Convergence Communication II',
+        projectName: 'Curriculum Integration',
+        projectTitle: 'From Chains to Change',
         projectDate: '2025',
-        description: 'Presented “Kahoot as an Educational Engagement Tool,” examining game-based learning and student engagement.',
-        justification: 'This presentation explored the intersection of technology and education. It required researching game-based learning methodologies and presenting findings to an academic audience, highlighting my ability to synthesize complex information and present it clearly.',
-        learnings: 'Presenting at a symposium refined my public speaking and academic presentation skills. I learned how to effectively communicate technical and pedagogical concepts to a diverse audience.'
+        description: 'Created a visual art project titled "From Chains to Change" reflecting on Rational Choice Theory and the social realities of oppression, freedom, and resistance.',
+        justification: 'The purpose was to encourage students to move beyond conventional classroom learning and express theoretical concepts through creative and practical work. The artwork explores how people make choices when placed in difficult or oppressive circumstances.',
+        learnings: 'I learned how to integrate theoretical concepts with visual art, and how symbols, colors, and composition can effectively communicate complex messages about social change.',
+        media: { type: 'image', src: 'assets/projects/Section 1 _ Group 11 - _From Chains to Change_ by [Faria Akter (223012075) & Md Tariquzzaman Sikder (223012037)].jpg' }
+    },
+    'c4d-planning': {
+        title: 'C4D Communication Planning',
+        company: 'Academic Project',
+        course: 'C4D Planning and Process',
+        projectName: 'Problem Definition and Strategy',
+        projectTitle: 'Addressing Childhood Malnutrition',
+        projectDate: '2025',
+        description: 'Developed a communication plan to address the severe issue of childhood malnutrition in rural Bangladesh.',
+        justification: 'This assignment required a thorough situation analysis, identifying variables like poverty, restricted healthcare access, and ingrained cultural practices that contribute to chronic nutritional deficiencies in children.',
+        learnings: 'I gained practical experience in problem definition, stakeholder analysis, and designing communication strategies aimed at driving behavior change and social development.'
+    },
+    'individual-report': {
+        title: 'Individual Report',
+        company: 'Academic Project',
+        course: 'Convergence Communication I',
+        projectName: 'Midterm Examination',
+        projectTitle: 'Convergence Communication Report',
+        projectDate: 'Fall 2023',
+        description: 'Completed an individual report for Convergence Communication 1 midterm examination.',
+        justification: 'This assignment demonstrated my ability to analyze and document convergence communication practices independently.',
+        learnings: 'I learned how to structure academic reports and critically evaluate communication strategies.'
+    },
+    'bangla-writing': {
+        title: 'Portfolio Assignment',
+        company: 'Academic Project',
+        course: 'Advanced Bangla Writing Skills',
+        projectName: 'Bangla Narrative Writing',
+        projectTitle: 'Creative Writing Assignment',
+        projectDate: '2025',
+        description: 'Wrote a creative Bengali narrative depicting rural life, childhood memories, and cultural nuances.',
+        justification: 'This coursework required advanced proficiency in Bengali literature and narrative structuring, allowing me to express complex emotions and cultural settings vividly in my native language.',
+        learnings: 'I improved my descriptive writing skills in Bengali, learning how to use regional dialects and sensory details to build an immersive story.'
+    },
+    'advertising-script': {
+        title: 'Advertising Script',
+        company: 'Academic Project',
+        course: 'Scriptwriting / Advertising',
+        projectName: 'MACES Advertisement Script',
+        projectTitle: 'Video Ad Script',
+        projectDate: '2025',
+        description: 'Drafted an initial video advertisement script for an educational consultancy firm (MACES).',
+        justification: 'The script was designed to connect with the target audience through relatable scenarios like economic frustration and political fatigue, ultimately offering a study-abroad solution.',
+        learnings: 'I learned how to format a professional video script and use visual cues, dramatic transitions, and humor to deliver a marketing message effectively.'
+    },
+    'portfolio-report': {
+        title: 'Portfolio Report',
+        company: 'Academic Project',
+        course: 'MSJ 4299',
+        projectName: 'Final Portfolio Submission',
+        projectTitle: 'Media Studies & Journalism Portfolio',
+        projectDate: 'Summer 2026',
+        description: 'Compiled a comprehensive portfolio report documenting my academic journey, major projects, and self-reflection.',
+        justification: 'This report served as the capstone submission for my degree, requiring me to synthesize my work across various courses and reflect on my personal and professional growth.',
+        learnings: 'I developed self-evaluation skills and learned how to professionally present my collective academic achievements in a structured format.'
     }
 };
 
