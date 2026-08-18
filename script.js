@@ -136,7 +136,7 @@ const projectData = {
         description: 'A full health communication plan for a proposed documentary on food insecurity and mental health stigma among Bangladeshi university students, built on the Health Belief Model, Social Cognitive Theory, Theory of Planned Behaviour, and Agenda-Setting Theory. The plan details audience segmentation, purposive/snowball sampling of six participants, a multi-channel dissemination strategy, a budget, and ethical safeguards for discussing mental health.',
         justification: 'Reflects strong grounding in applying communication theory to a stigmatised health topic — directly relevant to the ongoing master\'s thesis on stigma, taboo, and health information-seeking behaviour among female ULAB students, showing continuity in theoretical interest and methodological rigour.',
         learnings: 'Learned to apply multiple health communication theories (HBM, SCT, TPB, Agenda-Setting) together within a single plan, and to design a purposive/snowball sampling strategy for a sensitive, stigma-adjacent topic. Developed skills in ethical planning for documentary work involving vulnerable disclosures, and in budgeting and channel selection for a low-resource production.',
-        media: [] // No separate document uploaded for this project currently
+        media: [{ type: 'youtube', src: 'DokUGGpT3IU' }]
     },
     'emergency-comm': {
         title: 'Dengue Outbreak Emergency Communication Plan',
@@ -172,7 +172,10 @@ const projectData = {
         description: 'A five-scene narrative advertisement script following three young women through scenes of price inflation, disengagement from political trends, and general disillusionment with the state of the country, before converging on a "study abroad" resolution promoted by an educational consultancy (MACES). Each scene is paired with an explicit social message — economic stagnation, political apathy, and loss of national faith among Bangladeshi youth.',
         justification: 'Demonstrates the ability to translate socio-political commentary into a commercially viable, emotionally engaging visual narrative — showing range beyond journalistic writing into scripted commercial storytelling, while still grounding the work in genuine social observation about youth disillusionment and emigration aspiration in Bangladesh.',
         learnings: 'Learned to write a scene-by-scene commercial script that layers social commentary underneath an entertaining, character-driven narrative, and to plan visual/comedic beats (dramatic transitions, physical comedy) that keep a brand message engaging rather than didactic. Developed skills in balancing client messaging goals with authentic social observation.',
-        media: [{ type: 'document', src: 'assets/docs/Initial Script _ Advertising.pdf' }]
+        media: [
+            { type: 'youtube', src: 'OCCs5B-g5Ic' },
+            { type: 'document', src: 'assets/docs/Initial Script _ Advertising.pdf' }
+        ]
     }
 };
 
