@@ -226,6 +226,33 @@ a {
 }
 
 /* About Section */
+.academic-intro.compact {
+    margin: 0;
+    max-width: 600px;
+}
+
+.academic-intro.compact .lead-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* Glitters Animation */
+.glitter {
+    position: absolute;
+    font-size: 1.5rem;
+    pointer-events: none;
+    z-index: 10;
+    opacity: 0;
+    animation: sparkle 3s infinite ease-in-out;
+}
+
+@keyframes sparkle {
+    0% { transform: scale(0) rotate(0deg); opacity: 0; }
+    50% { transform: scale(1.2) rotate(180deg); opacity: 1; }
+    100% { transform: scale(0) rotate(360deg); opacity: 0; }
+}
+
 .about-content {
     max-width: 800px;
 }
