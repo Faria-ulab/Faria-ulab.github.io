@@ -51,7 +51,10 @@ const projectData = {
         description: 'This project focuses on a detailed podcast episode of Cinecast, hosted by Faria Akter and featuring guest speaker Mahbubul Ontor, the former CEO of CinemaScope. The primary goal of this initiative is to investigate and unpack the foundational reasons behind the Bangladeshi film industry\'s historical inability and hesitation to produce mainstream science fiction movies, despite the genre holding immense popularity among modern audiences. Throughout the conversation, the project closely examines the prevailing industry narratives regarding high production budgets, comparing them to international benchmarks. Furthermore, it dives into deeper systemic issues within local cinema, such as a perceived deficit in directorial vision and narrative imagination among filmmakers. Ultimately, the project maps out how the country possesses a wealth of written science fiction literature that remains completely untapped due to a failure in visual adaptation, formulaic production methods, and limited creative ambition within current filmmaking practices.',
         justification: 'Science fiction represents one of the most dynamic and commercially successful genres globally, yet Bangladeshi audiences remain almost entirely reliant on foreign productions to fulfill this demand. Addressing this imbalance is critical for the growth, modernization, and creative diversification of Bangladesh\'s domestic film ecosystem. While industry professionals frequently cite exorbitant financial requirements as the main barrier to entry, global low-budget sci-fi triumphs demonstrate that compelling conceptual thinking can successfully substitute for massive visual effects budgets. Highlighting these realities within this project provides a vital roadmap for local cinema. It actively challenges the industry\'s reliance on repetitive, formulaic storytelling by advocating for low-budget high-concept ideas, strong literary adaptations, strategic international co-productions, and synergistic partnerships between vision-driven directors and financially capable producers who can elevate local cinema onto a broader stage.',
         learnings: 'Through the analysis and execution of this project, participants will gain a practical and comprehensive understanding of the financial, creative, and structural barriers that currently hinder genre diversity in Bangladeshi cinema. Learners will critically analyze innovative production strategies, evaluating how low-budget narrative frameworks, existing Bangladeshi literary intellectual property, and strategic international collaborations can overcome traditional funding bottlenecks. Additionally, participants will develop actionable media engagement tactics for academic institutions, discovering how film clubs, campus media organizations, and apprenticeship programs can cultivate the next generation of directors. Rather than relying on passive screening methods, participants will learn how to design active, hands-on educational strategies that inspire youth filmmakers to think conceptually, hone their visual storytelling skills, and execute original science fiction concepts within realistic resource constraints.',
-        media: [{ type: 'document', src: 'assets/docs/Podcast_Script.pdf' }]
+        media: [
+            { type: 'audio', src: 'assets/projects/Podcast-Advance_English.mp3' },
+            { type: 'document', src: 'assets/docs/Podcast_Script.pdf' }
+        ]
     },
     'advanced-bangla': {
         title: 'Creative Writing (Short Story): Childhood',
@@ -237,6 +240,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     video.style.marginBottom = '1.5rem';
                     video.style.borderRadius = 'var(--radius)';
                     pMediaContainer.appendChild(video);
+                } else if (mediaItem.type === 'audio') {
+                    const audio = document.createElement('audio');
+                    audio.src = mediaItem.src;
+                    audio.controls = true;
+                    audio.style.width = '100%';
+                    audio.style.marginBottom = '1.5rem';
+                    pMediaContainer.appendChild(audio);
                 } else if (mediaItem.type === 'document') {
                     const iframe = document.createElement('iframe');
                     iframe.src = mediaItem.src;
