@@ -2,7 +2,7 @@ const projectData = {
     'research-proposal': {
         title: 'Branding Sculpture among Bangladeshi People',
         company: 'Academic Project',
-        course: 'Communication Research',
+        course: 'MSJ 1201 Communication Research',
         projectName: 'Research Proposal',
         projectTitle: 'Branding Sculpture among Bangladeshi People',
         projectDate: 'Spring 2023',
@@ -14,7 +14,7 @@ const projectData = {
     'mask-making': {
         title: 'From Chains to Change — Group Mask Installation',
         company: 'Academic Project',
-        course: 'Curriculum Integration (CI) — Theme: Rational Choice Theory',
+        course: 'MSJ 11211 Mass Communication',
         projectName: 'Mask Making',
         projectTitle: 'From Chains to Change',
         projectDate: '2025',
@@ -29,7 +29,7 @@ const projectData = {
     'blog-writing': {
         title: 'The Dual Lives of Bangladeshi Young Footballers',
         company: 'Academic Project',
-        course: 'Communication Technology',
+        course: 'MSJ 2101 Communication and Technology',
         projectName: 'Blog Writing',
         projectTitle: 'The Dual Lives of Bangladeshi Young Footballers',
         projectDate: '2025',
@@ -41,7 +41,7 @@ const projectData = {
     'advanced-english': {
         title: 'Podcast: Why Bangladeshi film industry doesn’t make science fiction movies?',
         company: 'Academic Project',
-        course: 'GEF1202 Advance English Writing Skills',
+        course: 'GEF 1202 Advance English Writing Skills',
         projectName: 'Podcast',
         projectTitle: 'Why Bangladeshi film industry doesn’t make science fiction movies?',
         projectDate: 'Summer 2023',
@@ -53,7 +53,7 @@ const projectData = {
     'advanced-bangla': {
         title: 'Creative Writing (Short Story): Childhood',
         company: 'Academic Project',
-        course: 'GEF1203 Advanced Bangla Writing Skills',
+        course: 'GEF 1203 Advanced Bangla Writing Skills',
         projectName: 'Creative Writing (Short Story)',
         projectTitle: 'Childhood',
         projectDate: 'Fall 2023',
@@ -65,7 +65,7 @@ const projectData = {
     'trashion-show': {
         title: 'Individual Report — Upcycled "Jungle" Trashion Garment',
         company: 'Academic Project',
-        course: 'Curriculum Integration (CI) — Theme: Eco-System Restoration',
+        course: 'MSJ 2102 Convergence Communication I',
         projectName: 'Trashion Show',
         projectTitle: 'Individual Report — Upcycled "Jungle" Trashion Garment',
         projectDate: 'December 2023',
@@ -81,7 +81,7 @@ const projectData = {
     'video-art': {
         title: 'Table of Strain',
         company: 'Academic Project',
-        course: 'Curriculum Integration (CI) — Theme: Rational Choice Theory',
+        course: 'MSJ 2202 Convergence Communication II',
         projectName: 'Video Art',
         projectTitle: 'Table of Strain',
         projectDate: '2025',
@@ -93,7 +93,7 @@ const projectData = {
     'project-plan': {
         title: 'Reducing Childhood Malnutrition in Rural Bangladesh — Communication Strategy',
         company: 'Academic Project',
-        course: 'C4D Communication Planning and Process',
+        course: 'MSJ 2262 C4D Planning and Process',
         projectName: 'Project Plan',
         projectTitle: 'Reducing Childhood Malnutrition in Rural Bangladesh — Communication Strategy',
         projectDate: '2025',
@@ -105,7 +105,7 @@ const projectData = {
     'participatory-research': {
         title: 'Water Crisis and Health Problems in a Marma Community of Bandarban',
         company: 'Academic Project',
-        course: 'Participatory Research (PR-1)',
+        course: 'MSJ 3161 Participatory Research',
         projectName: 'Research Project',
         projectTitle: 'Water Crisis and Health Problems in a Marma Community of Bandarban',
         projectDate: 'Spring 2026',
@@ -117,7 +117,7 @@ const projectData = {
     'ict-development': {
         title: '"Hasina and Friends": A Case Study of ICT4D Project Failure in Bangladesh',
         company: 'Academic Project',
-        course: 'MSJ3261 — ICT for Development (ICT4D)',
+        course: 'MSJ 3261 ICT for Development (ICT4D)',
         projectName: 'ICT for Development',
         projectTitle: '"Hasina and Friends": A Case Study of ICT4D Project Failure in Bangladesh',
         projectDate: 'Fall 2025',
@@ -129,7 +129,7 @@ const projectData = {
     'health-comm': {
         title: 'Health Communication Plan — Diaspora Student Wellbeing Documentary',
         company: 'Academic Project',
-        course: 'MSJ3262 — Health Communication',
+        course: 'MSJ 3262 Health Communication',
         projectName: 'Health Comm.',
         projectTitle: 'Health Communication Plan — Diaspora Student Wellbeing Documentary',
         projectDate: 'Spring 2025',
@@ -141,7 +141,7 @@ const projectData = {
     'emergency-comm': {
         title: 'Dengue Outbreak Emergency Communication Plan',
         company: 'Academic Project',
-        course: 'Emergency Communication',
+        course: 'MSJ 3263 Emergency Communication',
         projectName: 'Emergency com.',
         projectTitle: 'Dengue Outbreak Emergency Communication Plan',
         projectDate: 'Fall 2025',
@@ -153,7 +153,7 @@ const projectData = {
     'edutainment': {
         title: 'Rongin Bangladesh — Edutainment TV Program Concept',
         company: 'Academic Project',
-        course: 'Communication for Development — Edutainment Program Design',
+        course: 'MSJ 4161 Entertainment Education Communication',
         projectName: 'Edutainment',
         projectTitle: 'Rongin Bangladesh — Edutainment TV Program Concept',
         projectDate: '2025',
@@ -165,7 +165,7 @@ const projectData = {
     'advertising': {
         title: 'Initial Script — MACES Study Abroad Campaign',
         company: 'Academic Project',
-        course: 'Advertising',
+        course: 'MSJ 4141 Advertising',
         projectName: 'Advertising',
         projectTitle: 'Initial Script — MACES Study Abroad Campaign',
         projectDate: '2025',
