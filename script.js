@@ -88,7 +88,7 @@ const projectData = {
         description: 'An individual reflection on a video-art piece visualising the emotional and psychological tension underlying decision-making. Using a confined circular frame, repetitive hand movements over fragmented objects, and lighting that shifts from dark to intense red, the work reinterprets Rational Choice Theory as a felt experience of pressure rather than a purely rational calculation.',
         justification: 'Shows full individual authorship — concept, production, and critical reflection — and the capacity to render an academic theoretical framework in a non-literal, emotionally resonant register, reflecting the kind of interpretive, theory-grounded thinking now applied in thesis research.',
         learnings: 'Learned to independently plan and execute a short video-art piece, making deliberate choices around framing, lighting, and repetition to build emotional meaning without dialogue or explanation. Gained experience managing every stage of production solo — concept, filming, and editing — and reflecting critically on how abstract theory can be represented through sustained visual metaphor.',
-        media: [{ type: 'video', src: 'assets/projects/Table of Strain - Faria Akter.mp4' }]
+        media: [{ type: 'document', src: 'assets/docs/Commuincat Convergance I Reflection_Paper_Table_of_Strain.pdf' }]
     },
     'project-plan': {
         title: 'Reducing Childhood Malnutrition in Rural Bangladesh — Communication Strategy',
@@ -160,7 +160,7 @@ const projectData = {
         description: 'A full concept design for "Rongin Bangladesh" ("Colorful Bangladesh"), a proposed TV edutainment program addressing the marginalisation and cultural erasure of Bangladesh\'s ethnic minority communities (Garo, Chakma, Marma, Mro, Hajong, Santal). The proposal details a four-segment episode structure (storytelling, lifestyle, community voices, interactive quiz), a full sample episode on the Garo community, target audiences, guest structure, and the entertainment-education balance intended to build national cultural inclusion.',
         justification: 'Shows the ability to design an original mass-media format that operationalises development-communication goals — cultural preservation, stereotype reduction, national harmony — into a concrete, producible program structure. This demonstrates format and audience-design thinking that complements Faria\'s print feature work with a broadcast/edutainment lens.',
         learnings: 'Learned to design a full broadcast format from a development-communication goal, including episode structure, audience segmentation, and a worked sample episode. Developed skills in balancing entertainment value (dramatisation, music, interactive quizzes) with educational intent, and in designing content meant to reduce stereotyping and build national cultural inclusion.',
-        media: [{ type: 'document', src: 'assets/docs/Rongin Bangladesh.pdf' }]
+        media: [{ type: 'document', src: 'assets/docs/Reflection_Paper_Rongin_Bangladesh.pdf' }]
     },
     'advertising': {
         title: 'Initial Script — MACES Study Abroad Campaign',
@@ -174,7 +174,7 @@ const projectData = {
         learnings: 'Learned to write a scene-by-scene commercial script that layers social commentary underneath an entertaining, character-driven narrative, and to plan visual/comedic beats (dramatic transitions, physical comedy) that keep a brand message engaging rather than didactic. Developed skills in balancing client messaging goals with authentic social observation.',
         media: [
             { type: 'youtube', src: 'OCCs5B-g5Ic' },
-            { type: 'document', src: 'assets/docs/Initial Script _ Advertising.pdf' }
+            { type: 'document', src: 'assets/docs/Reflection_Paper_Narrative_Advertisement.pdf' }
         ]
     }
 };
