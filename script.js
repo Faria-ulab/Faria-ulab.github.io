@@ -36,7 +36,7 @@ const projectData = {
         description: 'A short comparative feature profiling two young footballers on divergent paths after representing Bangladesh: Apu Roy, a 2018 Bangabandhu Gold Cup champion who left football to become a barber due to financial hardship, and Shaon, who continued in the sport with the backing of a footballing family. Built on direct interviews, the piece interrogates structural inequality and the lack of institutional support for talent in Bangladeshi football.',
         justification: 'Demonstrates the ability to conduct original interview-based reporting and produce a publication-ready feature using digital writing and communication technology tools, building a comparative human-interest narrative that surfaces a structural critique of inequality in Bangladeshi sport through individual stories — early evidence of the narrative feature-writing approach later developed at TBS Panorama.',
         learnings: 'Learned to conduct and structure interview-based reporting, to build a narrative around contrast between two real subjects rather than a single profile, and to let individual stories carry a broader structural argument about inequality and opportunity. Strengthened skills in producing publication-ready feature content using digital writing and communication technology tools.',
-        media: [{ type: 'document', src: 'assets/docs/The Dual Lives Of Bangladeshi Young Footballer.pdf' }]
+        media: [{ type: 'document', src: 'assets/docs/Communication_Technology_Feature.pdf' }]
     },
     'advanced-english': {
         title: 'Podcast: Why Bangladeshi film industry doesn’t make science fiction movies?',
@@ -75,7 +75,7 @@ const projectData = {
         media: [
             { type: 'youtube', src: 'fkzN1_4GRcE' },
             { type: 'image', src: ['assets/projects/Trashion.jpg', 'assets/projects/Trashion 3.jpg', 'assets/projects/Trashion 4.jpg'] },
-            { type: 'document', src: 'assets/docs/Faria Akter (223012075) - Individual Report.pdf' }
+            { type: 'document', src: 'assets/docs/ConCom_Trashion_Show_Report.pdf' }
         ]
     },
     'video-art': {
