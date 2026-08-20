@@ -37,7 +37,7 @@ const projectData = {
         justification: 'Demonstrates the ability to conduct original interview-based reporting and produce a publication-ready feature using digital writing and communication technology tools, building a comparative human-interest narrative that surfaces a structural critique of inequality in Bangladeshi sport through individual stories — early evidence of the narrative feature-writing approach later developed at TBS Panorama.',
         learnings: 'Learned to conduct and structure interview-based reporting, to build a narrative around contrast between two real subjects rather than a single profile, and to let individual stories carry a broader structural argument about inequality and opportunity. Strengthened skills in producing publication-ready feature content using digital writing and communication technology tools.',
         media: [
-            { type: 'document', src: 'assets/docs/The Dual Lives Of Bangladeshi Young Footballer.pdf' },
+            { type: 'document', src: 'assets/docs/Communication_Technology_Feature.pdf' },
             { type: 'document', src: 'assets/docs/The_Dual_Lives_Feature.pdf' }
         ]
     },
