@@ -81,7 +81,8 @@ const projectData = {
         media: [
             { type: 'youtube', src: 'fkzN1_4GRcE' },
             { type: 'image', src: ['assets/projects/Trashion.jpg', 'assets/projects/Trashion 3.jpg', 'assets/projects/Trashion 4.jpg'] },
-            { type: 'document', src: 'assets/docs/ConCom_Trashion_Show_Report.pdf' }
+            { type: 'document', src: 'assets/docs/ConCom_Trashion_Show_Report.pdf' },
+            { type: 'document', src: 'assets/docs/CI_Report_Howling_of_the_Nature.pdf' }
         ]
     },
     'video-art': {
@@ -106,7 +107,7 @@ const projectData = {
         description: 'A full communication-for-development strategy addressing childhood malnutrition in rural Bangladesh, built on a problem-tree analysis (poverty, maternal education, sanitation, healthcare access, cultural beliefs) and structured using the Logical Framework (Log Frame) approach. The plan defines goals, objectives, target behaviours (exclusive breastfeeding, hygiene, dietary diversity), multi-channel communication activities (health worker visits, radio, SMS, mother support groups), and monitoring indicators.',
         justification: 'Demonstrates the ability to design a full evidence-based, multi-stakeholder development communication strategy from root-cause diagnosis to measurable behaviour-change outcomes — reflecting strong grounding in C4D frameworks (Log Frame Analysis, BCC) that inform Faria\'s broader interest in health communication and stigma-reduction strategy, directly relevant to her master\'s research on health information-seeking behaviour.',
         learnings: 'Learned to build a communication strategy from root-cause analysis (problem tree) through to a full Log Frame structure with measurable indicators, verification methods, and risk assumptions. Developed skills in aligning multiple communication channels (interpersonal, mass media, digital) around a single behaviour-change goal, and in setting realistic, quantifiable success targets for a development intervention.',
-        media: [{ type: 'document', src: 'assets/docs/C4D_planning_Assignment[1][1].pdf' }]
+        media: [{ type: 'document', src: 'assets/docs/C4D_Planning_and_Process.pdf' }]
     },
     'participatory-research': {
         title: 'Water Crisis and Health Problems in a Marma Community of Bandarban',
@@ -166,7 +167,10 @@ const projectData = {
         description: 'A full concept design for "Rongin Bangladesh" ("Colorful Bangladesh"), a proposed TV edutainment program addressing the marginalisation and cultural erasure of Bangladesh\'s ethnic minority communities (Garo, Chakma, Marma, Mro, Hajong, Santal). The proposal details a four-segment episode structure (storytelling, lifestyle, community voices, interactive quiz), a full sample episode on the Garo community, target audiences, guest structure, and the entertainment-education balance intended to build national cultural inclusion.',
         justification: 'Shows the ability to design an original mass-media format that operationalises development-communication goals — cultural preservation, stereotype reduction, national harmony — into a concrete, producible program structure. This demonstrates format and audience-design thinking that complements Faria\'s print feature work with a broadcast/edutainment lens.',
         learnings: 'Learned to design a full broadcast format from a development-communication goal, including episode structure, audience segmentation, and a worked sample episode. Developed skills in balancing entertainment value (dramatisation, music, interactive quizzes) with educational intent, and in designing content meant to reduce stereotyping and build national cultural inclusion.',
-        media: [{ type: 'document', src: 'assets/docs/Reflection_Paper_Rongin_Bangladesh.pdf' }]
+        media: [
+            { type: 'youtube', src: 'wIUJCnW1y6w' },
+            { type: 'document', src: 'assets/docs/Reflection_Paper_Rongin_Bangladesh.pdf' }
+        ]
     },
     'advertising': {
         title: 'Initial Script — MACES Study Abroad Campaign',
